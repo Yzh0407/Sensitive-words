@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=980, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Erebus Sensitive Word Filter System - 用户登录</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon/favicon.ico">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4338ca;
+            --muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body { min-width: 980px; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            padding: 32px 16px;
+            font-family: "Inter", "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+            background: radial-gradient(circle at top, rgba(99, 102, 241, 0.25), transparent 45%),
+                radial-gradient(circle at 80% 20%, rgba(14, 165, 233, 0.25), transparent 50%),
+                linear-gradient(135deg, #0f172a, #111d46);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #e2e8f0;
+        }
+
+        .login-shell {
+            width: 980px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background: rgba(15, 23, 42, 0.88);
+            border-radius: 32px;
+            overflow: hidden;
+            box-shadow: 0 40px 120px rgba(0, 0, 0, 0.35);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+        }
+
+        .promo {
+            padding: 48px;
+            background: radial-gradient(circle at 10% 20%, rgba(248, 250, 252, 0.08), transparent 45%),
+                linear-gradient(160deg, rgba(99, 102, 241, 0.2), rgba(79, 70, 229, 0.45));
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .promo h1 {
+            margin: 0;
+            font-size: 38px;
+            color: #fff;
+        }
+
+        .promo p {
+            color: rgba(226, 232, 240, 0.85);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .eyebrow {
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            font-size: 12px;
+            color: rgba(226, 232, 240, 0.6);
+        }
+
+        .promo ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            gap: 12px;
+        }
+
+        .promo li {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            color: rgba(226, 232, 240, 0.85);
+        }
+
+        .promo li::before {
+            content: "";
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            border: 2px solid #34d399;
+            margin-top: 4px;
+            flex-shrink: 0;
+        }
+
+        form {
+            background: rgba(255, 255, 255, 0.98);
+            padding: 48px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            color: #0f172a;
+        }
+
+        form h2 {
+            margin: 0;
+        }
+
+        .form-subtitle {
+            margin-top: -8px;
+            margin-bottom: 8px;
+            color: #475569;
+        }
+
+        label {
+            font-size: 13px;
+            font-weight: 600;
+            color: #475569;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 14px;
+            border: 1px solid rgba(148, 163, 184, 0.6);
+            margin-top: 6px;
+            font-size: 15px;
+            transition: border-color .18s;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+        }
+
+        .remember-check {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 4px;
+            font-size: 13px;
+            color: #475569;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .remember-check input[type="checkbox"] {
+            width: auto;
+            margin: 0;
+            accent-color: #6366f1;
+            transform: scale(1.05);
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            margin-top: 8px;
+            border: none;
+            border-radius: 16px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: #fff;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 15px 30px rgba(99, 102, 241, 0.35);
+            transition: transform .18s ease, box-shadow .18s ease;
+        }
+
+        button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 18px 36px rgba(99, 102, 241, 0.45);
+        }
+
+        .error {
+            background: rgba(248, 113, 113, 0.12);
+            border: 1px solid rgba(239, 68, 68, 0.4);
+            color: #b91c1c;
+            padding: 10px 14px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+
+        .fine-print {
+            font-size: 12px;
+            color: #94a3b8;
+            margin-top: 8px;
+        }
+
+        /* 固定布局：移除响应式规则 */
+    </style>
+</head>
+
+<body>
+    <div class="login-shell">
+        <section class="promo">
+            <div>
+                <p class="eyebrow">EREBUS · 文本风控</p>
+                <h1>智能敏感词自检平台</h1>
+                <p>实时同步飞书多维表的规则，帮助团队在物料提报前完成合规校验，减少返工。</p>
+            </div>
+            <ul>
+                <li>整词/字符双模式匹配，兼顾精度与召回</li>
+                <li>Excel 行号溯源，方便多人协作</li>
+                <li>数据仅保留在当前浏览器会话</li>
+            </ul>
+        </section>
+        <form method="post">
+            <h2>欢迎回来</h2>
+            <p class="form-subtitle">使用分配的 Erebus 账号登录，安全访问审核工具。</p>
+            {% if error %}<div class="error">{{ error }}</div>{% endif %}
+            <label for="username">用户名</label>
+            <input type="text" id="username" name="username" placeholder="请输入用户名" required>
+            <label for="password">密码</label>
+            <input type="password" id="password" name="password" placeholder="请输入密码" required>
+            <label class="remember-check" for="remember_me">
+                <input type="checkbox" id="remember_me" name="remember_me" {% if remember_me %}checked{% endif %}>
+                <span>记住我</span>
+            </label>
+            <button type="submit">进入系统</button>
+            <p class="fine-print">如需重置密码或开通账号，请联系系统管理员。</p>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,2325 @@
+[2025-09-23 14:44:35 +0800] [2346933] [INFO] Worker exiting (pid: 2346933)
+[2025-09-23 14:44:35 +0800] [2346934] [INFO] Worker exiting (pid: 2346934)
+[2025-09-23 14:44:35 +0800] [2346931] [INFO] Handling signal: term
+[2025-09-23 14:44:35 +0800] [2346932] [INFO] Worker exiting (pid: 2346932)
+[2025-09-23 14:44:35 +0800] [2346935] [INFO] Worker exiting (pid: 2346935)
+[2025-09-23 14:44:35 +0800] [2346931] [ERROR] Worker (pid:2346934) was sent SIGTERM!
+[2025-09-23 14:44:35 +0800] [2346931] [ERROR] Worker (pid:2346933) was sent SIGTERM!
+[2025-09-23 14:44:35 +0800] [2346931] [INFO] Shutting down: Master
+[2025-09-23 14:44:36 +0800] [2353300] [INFO] Starting gunicorn 23.0.0
+[2025-09-23 14:44:36 +0800] [2353300] [INFO] Listening at: http://0.0.0.0:5500 (2353300)
+[2025-09-23 14:44:36 +0800] [2353300] [INFO] Using worker: sync
+[2025-09-23 14:44:36 +0800] [2353302] [INFO] Booting worker with pid: 2353302
+[2025-09-23 14:44:36 +0800] [2353303] [INFO] Booting worker with pid: 2353303
+[2025-09-23 14:44:36 +0800] [2353306] [INFO] Booting worker with pid: 2353306
+[2025-09-23 14:44:36 +0800] [2353307] [INFO] Booting worker with pid: 2353307
+2025-09-23 14:45:16,938 [WARNING] [anonymous] ❌ 用户 yuki_ht	 登录失败
+2025-09-23 14:45:34,026 [INFO] [yuki_ht] ✅ 用户 yuki_ht 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'yuki_ht'}>
+2025-09-23 14:47:16,975 [INFO] [nako_user] ✅ 用户 nako_user 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'nako_user'}>
+2025-09-23 14:47:27,075 [INFO] [yuki_ht] ✅ 成功获取 tenant_access_token
+2025-09-23 14:47:28,931 [INFO] [yuki_ht] ✅ 共加载敏感词 847 条
+2025-09-23 14:47:28,936 [INFO] [yuki_ht] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-09-23 16:50:20,511 [INFO] [ap_user] ✅ 用户 ap_user 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'ap_user'}>
+2025-09-23 16:52:01,994 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-09-23 16:52:03,777 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-09-23 16:52:03,782 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-09-23 16:53:21,819 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-09-23 16:53:23,492 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-09-23 16:53:23,497 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-09-23 16:54:05,340 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-09-23 16:54:07,155 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-09-23 16:54:07,160 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-09-23 17:00:49,844 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-09-23 17:00:52,035 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-09-23 17:00:52,040 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-09-23 17:01:02,303 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-09-23 17:01:04,173 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-09-23 17:01:04,180 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-09-23 17:02:26,717 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-09-23 17:02:28,774 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-09-23 17:02:28,779 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-09-23 17:03:10,945 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-09-23 17:03:12,907 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-09-23 17:03:12,912 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-09-23 17:03:16,891 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-09-23 17:03:18,619 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-09-23 17:03:18,624 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+[2025-09-23 18:02:50 +0800] [2353307] [WARNING] Invalid request from ip=167.94.138.179: Invalid HTTP Version: (2, 0)
+[2025-09-23 18:02:54 +0800] [2353306] [WARNING] Invalid request from ip=167.94.138.179: Invalid HTTP Version: (2, 0)
+2025-09-24 13:05:15,338 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+[2025-09-24 16:54:09 +0800] [2353307] [WARNING] Invalid request from ip=162.142.125.126: Invalid HTTP Version: (2, 0)
+[2025-09-24 16:54:15 +0800] [2353307] [WARNING] Invalid request from ip=162.142.125.126: Invalid HTTP Version: (2, 0)
+2025-09-24 17:18:11,436 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-09-24 17:18:20,239 [INFO] [nako_user] ✅ 用户 nako_user 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'nako_user'}>
+2025-09-24 17:18:59,295 [INFO] [nako_user] ✅ 成功获取 tenant_access_token
+2025-09-24 17:19:01,475 [INFO] [nako_user] ✅ 共加载敏感词 847 条
+2025-09-24 17:19:01,482 [INFO] [nako_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+[2025-09-25 11:43:19 +0800] [2353302] [WARNING] Invalid request from ip=172.105.216.226: Invalid HTTP request line: ''
+[2025-09-25 11:43:22 +0800] [2353306] [WARNING] Invalid request from ip=172.105.216.226: Invalid HTTP Version: 'RTSP/1.0'
+[2025-09-25 11:43:32 +0800] [2353306] [WARNING] Invalid request from ip=172.105.216.226: Invalid HTTP request line: 'HELP'
+[2025-09-25 11:43:57 +0800] [2353306] [WARNING] Invalid request from ip=172.105.216.226: Invalid HTTP Version: 'SIP/2.0'
+[2025-09-25 11:44:44 +0800] [2353300] [CRITICAL] WORKER TIMEOUT (pid:2353306)
+[2025-09-25 11:44:44 +0800] [2353306] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+          ^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/message.py", line 259, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/message.py", line 60, in __init__
+    unused = self.parse(self.unreader)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/message.py", line 271, in parse
+    self.get_data(unreader, buf, stop=True)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/message.py", line 262, in get_data
+    data = unreader.read()
+           ^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/unreader.py", line 36, in read
+    d = self.chunk()
+        ^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/unreader.py", line 63, in chunk
+    return self.sock.recv(self.mxchunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/workers/base.py", line 204, in handle_abort
+    sys.exit(1)
+SystemExit: 1
+[2025-09-25 11:44:44 +0800] [2353306] [INFO] Worker exiting (pid: 2353306)
+[2025-09-25 11:44:44 +0800] [3192006] [INFO] Booting worker with pid: 3192006
+[2025-09-25 11:44:45 +0800] [2353300] [CRITICAL] WORKER TIMEOUT (pid:2353303)
+[2025-09-25 11:44:45 +0800] [2353303] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+          ^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/message.py", line 259, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/message.py", line 60, in __init__
+    unused = self.parse(self.unreader)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/message.py", line 271, in parse
+    self.get_data(unreader, buf, stop=True)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/message.py", line 262, in get_data
+    data = unreader.read()
+           ^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/unreader.py", line 36, in read
+    d = self.chunk()
+        ^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/unreader.py", line 63, in chunk
+    return self.sock.recv(self.mxchunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/workers/base.py", line 204, in handle_abort
+    sys.exit(1)
+SystemExit: 1
+[2025-09-25 11:44:45 +0800] [2353303] [INFO] Worker exiting (pid: 2353303)
+[2025-09-25 11:44:46 +0800] [3192017] [INFO] Booting worker with pid: 3192017
+[2025-09-25 16:38:01 +0800] [2353302] [WARNING] Invalid request from ip=167.94.138.114: Invalid HTTP Version: (2, 0)
+[2025-09-25 16:38:06 +0800] [2353307] [WARNING] Invalid request from ip=167.94.138.114: Invalid HTTP Version: (2, 0)
+[2025-09-26 16:52:22 +0800] [3192006] [WARNING] Invalid request from ip=206.168.34.211: Invalid HTTP Version: (2, 0)
+[2025-09-26 16:52:25 +0800] [2353307] [WARNING] Invalid request from ip=206.168.34.211: Invalid HTTP Version: (2, 0)
+[2025-09-26 17:04:20 +0800] [3192017] [WARNING] Invalid request from ip=66.132.153.121: Invalid HTTP Version: (2, 0)
+[2025-09-26 17:04:23 +0800] [2353307] [WARNING] Invalid request from ip=66.132.153.121: Invalid HTTP Version: (2, 0)
+[2025-09-27 17:10:17 +0800] [3192017] [WARNING] Invalid request from ip=199.45.155.89: Invalid HTTP Version: (2, 0)
+[2025-09-27 17:10:23 +0800] [2353307] [WARNING] Invalid request from ip=199.45.155.89: Invalid HTTP Version: (2, 0)
+[2025-09-27 18:13:27 +0800] [3192017] [WARNING] Invalid request from ip=167.94.138.121: Invalid HTTP Version: (2, 0)
+[2025-09-27 18:13:32 +0800] [2353302] [WARNING] Invalid request from ip=167.94.138.121: Invalid HTTP Version: (2, 0)
+2025-09-28 11:04:29,655 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+[2025-09-28 17:24:40 +0800] [2353302] [WARNING] Invalid request from ip=199.45.154.130: Invalid HTTP Version: (2, 0)
+[2025-09-28 17:24:45 +0800] [2353302] [WARNING] Invalid request from ip=199.45.154.130: Invalid HTTP Version: (2, 0)
+[2025-09-29 18:03:04 +0800] [3192006] [WARNING] Invalid request from ip=162.142.125.201: Invalid HTTP Version: (2, 0)
+[2025-09-29 18:03:11 +0800] [2353302] [WARNING] Invalid request from ip=162.142.125.201: Invalid HTTP Version: (2, 0)
+[2025-09-29 18:49:44 +0800] [2353300] [CRITICAL] WORKER TIMEOUT (pid:3192006)
+[2025-09-29 18:49:44 +0800] [3192006] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+          ^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/message.py", line 259, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/message.py", line 60, in __init__
+    unused = self.parse(self.unreader)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/message.py", line 271, in parse
+    self.get_data(unreader, buf, stop=True)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/message.py", line 262, in get_data
+    data = unreader.read()
+           ^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/unreader.py", line 36, in read
+    d = self.chunk()
+        ^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/http/unreader.py", line 63, in chunk
+    return self.sock.recv(self.mxchunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/workers/base.py", line 204, in handle_abort
+    sys.exit(1)
+SystemExit: 1
+[2025-09-29 18:49:44 +0800] [3192006] [INFO] Worker exiting (pid: 3192006)
+[2025-09-29 18:49:44 +0800] [909221] [INFO] Booting worker with pid: 909221
+[2025-09-30 16:55:56 +0800] [2353302] [WARNING] Invalid request from ip=66.132.153.142: Invalid HTTP Version: (2, 0)
+[2025-09-30 16:56:00 +0800] [2353307] [WARNING] Invalid request from ip=66.132.153.142: Invalid HTTP Version: (2, 0)
+[2025-10-01 16:54:05 +0800] [909221] [WARNING] Invalid request from ip=206.168.34.210: Invalid HTTP Version: (2, 0)
+[2025-10-01 16:54:14 +0800] [2353302] [WARNING] Invalid request from ip=206.168.34.210: Invalid HTTP Version: (2, 0)
+[2025-10-02 16:52:25 +0800] [2353307] [WARNING] Invalid request from ip=167.94.138.177: Invalid HTTP Version: (2, 0)
+[2025-10-02 16:52:29 +0800] [2353307] [WARNING] Invalid request from ip=167.94.138.177: Invalid HTTP Version: (2, 0)
+[2025-10-03 17:11:03 +0800] [2353307] [WARNING] Invalid request from ip=162.142.125.115: Invalid HTTP Version: (2, 0)
+[2025-10-03 17:11:08 +0800] [3192017] [WARNING] Invalid request from ip=162.142.125.115: Invalid HTTP Version: (2, 0)
+[2025-10-03 18:38:40 +0800] [909221] [WARNING] Invalid request from ip=167.94.138.48: Invalid HTTP Version: (2, 0)
+[2025-10-03 18:38:45 +0800] [2353302] [WARNING] Invalid request from ip=167.94.138.48: Invalid HTTP Version: (2, 0)
+[2025-10-04 02:44:41 +0800] [2353307] [WARNING] Invalid request from ip=193.32.162.17: Invalid HTTP request line: 'SSH-2.0-Go'
+[2025-10-04 05:14:16 +0800] [2353302] [WARNING] Invalid request from ip=37.60.241.154: Invalid HTTP request line: 'SSH-2.0-OpenSSH'
+[2025-10-04 16:32:37 +0800] [909221] [WARNING] Invalid request from ip=162.142.125.112: Invalid HTTP Version: (2, 0)
+[2025-10-04 16:32:42 +0800] [909221] [WARNING] Invalid request from ip=162.142.125.112: Invalid HTTP Version: (2, 0)
+[2025-10-05 05:19:06 +0800] [2353302] [WARNING] Invalid request from ip=121.43.117.198: Invalid HTTP request line: ''
+[2025-10-05 16:56:07 +0800] [2353307] [WARNING] Invalid request from ip=199.45.154.127: Invalid HTTP Version: (2, 0)
+[2025-10-05 16:56:12 +0800] [2353307] [WARNING] Invalid request from ip=199.45.154.127: Invalid HTTP Version: (2, 0)
+[2025-10-05 17:01:48 +0800] [3192017] [WARNING] Invalid request from ip=66.132.153.138: Invalid HTTP Version: (2, 0)
+[2025-10-05 17:01:55 +0800] [909221] [WARNING] Invalid request from ip=66.132.153.138: Invalid HTTP Version: (2, 0)
+[2025-10-06 16:34:42 +0800] [2353302] [WARNING] Invalid request from ip=199.45.155.93: Invalid HTTP Version: (2, 0)
+[2025-10-06 16:34:45 +0800] [2353307] [WARNING] Invalid request from ip=199.45.155.93: Invalid HTTP Version: (2, 0)
+[2025-10-07 17:18:02 +0800] [909221] [WARNING] Invalid request from ip=167.94.138.117: Invalid HTTP Version: (2, 0)
+[2025-10-07 17:18:07 +0800] [909221] [WARNING] Invalid request from ip=167.94.138.117: Invalid HTTP Version: (2, 0)
+2025-10-08 17:28:11,460 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+[2025-10-14 09:23:12 +0800] [2353302] [INFO] Worker exiting (pid: 2353302)
+[2025-10-14 09:23:12 +0800] [909221] [INFO] Worker exiting (pid: 909221)
+[2025-10-14 09:23:12 +0800] [2353300] [INFO] Handling signal: term
+[2025-10-14 09:23:12 +0800] [2353307] [INFO] Worker exiting (pid: 2353307)
+[2025-10-14 09:23:12 +0800] [3192017] [INFO] Worker exiting (pid: 3192017)
+[2025-10-14 09:23:12 +0800] [2353300] [ERROR] Worker (pid:2353307) was sent SIGTERM!
+[2025-10-14 09:23:12 +0800] [2353300] [ERROR] Worker (pid:3192017) was sent SIGTERM!
+[2025-10-14 09:23:12 +0800] [2353300] [ERROR] Worker (pid:909221) was sent SIGTERM!
+[2025-10-14 09:23:12 +0800] [2353300] [ERROR] Worker (pid:2353302) was sent SIGTERM!
+[2025-10-14 09:23:12 +0800] [2353300] [INFO] Shutting down: Master
+[2025-10-14 09:23:12 +0800] [3215639] [INFO] Starting gunicorn 23.0.0
+[2025-10-14 09:23:12 +0800] [3215639] [INFO] Listening at: http://0.0.0.0:5500 (3215639)
+[2025-10-14 09:23:12 +0800] [3215639] [INFO] Using worker: sync
+[2025-10-14 09:23:12 +0800] [3215641] [INFO] Booting worker with pid: 3215641
+[2025-10-14 09:23:12 +0800] [3215642] [INFO] Booting worker with pid: 3215642
+[2025-10-14 09:23:13 +0800] [3215643] [INFO] Booting worker with pid: 3215643
+[2025-10-14 09:23:13 +0800] [3215646] [INFO] Booting worker with pid: 3215646
+2025-10-16 14:21:27,464 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-10-16 14:21:29,226 [INFO] [yuki_ht] ✅ 用户 yuki_ht 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'yuki_ht'}>
+2025-10-16 14:22:37,385 [INFO] [yuki_ht] ✅ 成功获取 tenant_access_token
+2025-10-16 14:22:39,552 [INFO] [yuki_ht] ✅ 共加载敏感词 847 条
+2025-10-16 14:22:39,557 [INFO] [yuki_ht] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-16 14:26:06,593 [INFO] [yuki_ht] ✅ 成功获取 tenant_access_token
+2025-10-16 14:26:08,649 [INFO] [yuki_ht] ✅ 共加载敏感词 847 条
+2025-10-16 14:26:08,654 [INFO] [yuki_ht] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-16 14:26:16,578 [INFO] [yuki_ht] ✅ 成功获取 tenant_access_token
+2025-10-16 14:26:18,558 [INFO] [yuki_ht] ✅ 共加载敏感词 847 条
+2025-10-16 14:26:18,564 [INFO] [yuki_ht] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-16 14:27:13,555 [INFO] [yuki_ht] ✅ 成功获取 tenant_access_token
+2025-10-16 14:27:15,474 [INFO] [yuki_ht] ✅ 共加载敏感词 847 条
+2025-10-16 14:27:15,483 [INFO] [yuki_ht] ✅ 返回敏感词 847 条（GZIP 压缩）
+[2025-10-20 09:59:16 +0800] [884] [INFO] Starting gunicorn 23.0.0
+[2025-10-20 09:59:16 +0800] [884] [INFO] Listening at: http://0.0.0.0:5500 (884)
+[2025-10-20 09:59:16 +0800] [884] [INFO] Using worker: sync
+[2025-10-20 09:59:16 +0800] [1029] [INFO] Booting worker with pid: 1029
+[2025-10-20 09:59:16 +0800] [1036] [INFO] Booting worker with pid: 1036
+[2025-10-20 09:59:17 +0800] [1037] [INFO] Booting worker with pid: 1037
+[2025-10-20 09:59:17 +0800] [1052] [INFO] Booting worker with pid: 1052
+[2025-10-20 15:03:28 +0800] [884] [CRITICAL] WORKER TIMEOUT (pid:1037)
+[2025-10-20 15:03:54 +0800] [1037] [INFO] Worker exiting (pid: 1037)
+[2025-10-20 15:03:59 +0800] [884] [ERROR] Worker (pid:1037) exited with code 1
+[2025-10-20 15:03:59 +0800] [884] [ERROR] Worker (pid:1037) exited with code 1.
+[2025-10-20 15:03:59 +0800] [137979] [INFO] Booting worker with pid: 137979
+2025-10-22 14:59:41,855 [ERROR] [anonymous] Exception on / [POST]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 157, in login
+    if check_user(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 136, in check_user
+    conn = pymysql.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 365, in __init__
+    self.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 681, in connect
+    self._request_authentication()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 980, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 271, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 144, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-10-22 14:59:47,204 [ERROR] [anonymous] Exception on / [POST]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 157, in login
+    if check_user(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 136, in check_user
+    conn = pymysql.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 365, in __init__
+    self.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 681, in connect
+    self._request_authentication()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 980, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 271, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 144, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-10-22 15:00:00,853 [ERROR] [anonymous] Exception on / [POST]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 157, in login
+    if check_user(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 136, in check_user
+    conn = pymysql.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 365, in __init__
+    self.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 681, in connect
+    self._request_authentication()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 980, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 271, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 144, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-10-22 15:00:31,571 [ERROR] [anonymous] Exception on / [POST]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 157, in login
+    if check_user(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 136, in check_user
+    conn = pymysql.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 365, in __init__
+    self.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 681, in connect
+    self._request_authentication()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 980, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 271, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 144, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-10-22 15:00:32,352 [ERROR] [anonymous] Exception on / [POST]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 157, in login
+    if check_user(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 136, in check_user
+    conn = pymysql.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 365, in __init__
+    self.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 681, in connect
+    self._request_authentication()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 980, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 271, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 144, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-10-22 15:00:32,828 [ERROR] [anonymous] Exception on / [POST]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 157, in login
+    if check_user(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 136, in check_user
+    conn = pymysql.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 365, in __init__
+    self.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 681, in connect
+    self._request_authentication()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 980, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 271, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 144, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-10-22 15:00:40,917 [ERROR] [anonymous] Exception on / [POST]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 157, in login
+    if check_user(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 136, in check_user
+    conn = pymysql.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 365, in __init__
+    self.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 681, in connect
+    self._request_authentication()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 980, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 271, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 144, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-10-22 15:00:53,037 [ERROR] [anonymous] Exception on / [POST]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 157, in login
+    if check_user(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 136, in check_user
+    conn = pymysql.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 365, in __init__
+    self.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 681, in connect
+    self._request_authentication()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 980, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 271, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/_auth.py", line 144, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+[2025-10-22 15:03:28 +0800] [1036] [INFO] Worker exiting (pid: 1036)
+[2025-10-22 15:03:28 +0800] [1029] [INFO] Worker exiting (pid: 1029)
+[2025-10-22 15:03:28 +0800] [1052] [INFO] Worker exiting (pid: 1052)
+[2025-10-22 15:03:28 +0800] [137979] [INFO] Worker exiting (pid: 137979)
+[2025-10-22 15:03:28 +0800] [884] [INFO] Handling signal: term
+[2025-10-22 15:03:28 +0800] [884] [ERROR] Worker (pid:1029) was sent SIGTERM!
+[2025-10-22 15:03:28 +0800] [884] [ERROR] Worker (pid:1036) was sent SIGTERM!
+[2025-10-22 15:03:28 +0800] [884] [ERROR] Worker (pid:137979) was sent SIGTERM!
+[2025-10-22 15:03:28 +0800] [884] [ERROR] Worker (pid:1052) was sent SIGTERM!
+[2025-10-22 15:03:28 +0800] [884] [INFO] Shutting down: Master
+[2025-10-22 15:03:28 +0800] [1031557] [INFO] Starting gunicorn 23.0.0
+[2025-10-22 15:03:28 +0800] [1031557] [INFO] Listening at: http://0.0.0.0:5500 (1031557)
+[2025-10-22 15:03:28 +0800] [1031557] [INFO] Using worker: sync
+[2025-10-22 15:03:28 +0800] [1031559] [INFO] Booting worker with pid: 1031559
+[2025-10-22 15:03:28 +0800] [1031560] [INFO] Booting worker with pid: 1031560
+[2025-10-22 15:03:28 +0800] [1031561] [INFO] Booting worker with pid: 1031561
+[2025-10-22 15:03:28 +0800] [1031562] [INFO] Booting worker with pid: 1031562
+2025-10-22 15:03:37,259 [INFO] [nako_user] ✅ 用户 nako_user 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'nako_user'}>
+2025-10-28 10:10:31,612 [INFO] [nako_user] ✅ 用户 nako_user 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'nako_user'}>
+2025-10-28 10:10:48,226 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-10-28 10:11:05,253 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-10-28 10:12:14,281 [INFO] [nako_user] ✅ 成功获取 tenant_access_token
+2025-10-28 10:12:16,616 [INFO] [nako_user] ✅ 共加载敏感词 847 条
+2025-10-28 10:12:16,621 [INFO] [nako_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-28 10:12:56,814 [INFO] [nako_user] ✅ 成功获取 tenant_access_token
+2025-10-28 10:12:58,801 [INFO] [nako_user] ✅ 共加载敏感词 847 条
+2025-10-28 10:12:58,806 [INFO] [nako_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-28 10:13:24,973 [INFO] [nako_user] ✅ 成功获取 tenant_access_token
+2025-10-28 10:13:26,949 [INFO] [nako_user] ✅ 共加载敏感词 847 条
+2025-10-28 10:13:26,953 [INFO] [nako_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-28 10:13:32,304 [INFO] [nako_user] ✅ 成功获取 tenant_access_token
+2025-10-28 10:13:34,278 [INFO] [nako_user] ✅ 共加载敏感词 847 条
+2025-10-28 10:13:34,282 [INFO] [nako_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-28 10:14:27,790 [INFO] [nako_user] ✅ 成功获取 tenant_access_token
+2025-10-28 10:14:29,915 [INFO] [nako_user] ✅ 共加载敏感词 847 条
+2025-10-28 10:14:29,922 [INFO] [nako_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-29 09:01:43,520 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-10-30 14:08:03,930 [INFO] [ap_user] ✅ 用户 ap_user 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'ap_user'}>
+2025-10-30 14:22:38,584 [INFO] [ap_user] ✅ 用户 ap_user 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'ap_user'}>
+2025-10-30 14:24:07,316 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-10-30 14:24:09,645 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-10-30 14:24:09,650 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-30 14:24:14,309 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-10-30 14:24:16,089 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-10-30 14:24:16,097 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-30 15:10:42,512 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-10-30 15:10:44,886 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-10-30 15:10:44,891 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-30 15:28:46,207 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-10-30 15:28:48,492 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-10-30 15:28:48,497 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-30 15:51:52,759 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-10-30 15:51:54,901 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-10-30 15:51:54,908 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-30 16:58:43,935 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-10-30 16:58:46,172 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-10-30 16:58:46,177 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-30 17:17:37,284 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-10-30 17:17:39,453 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-10-30 17:17:39,458 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-31 11:46:31,910 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-10-31 11:46:33,975 [INFO] [yuki_ht] ✅ 用户 yuki_ht 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'yuki_ht'}>
+2025-10-31 11:46:47,948 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-10-31 11:46:48,010 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-10-31 11:55:21,288 [INFO] [yuki_ht] ✅ 成功获取 tenant_access_token
+2025-10-31 11:55:23,133 [INFO] [yuki_ht] ✅ 共加载敏感词 847 条
+2025-10-31 11:55:23,140 [INFO] [yuki_ht] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-31 14:46:21,007 [INFO] [ap_user] ✅ 用户 ap_user 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'ap_user'}>
+2025-10-31 14:46:27,543 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-10-31 14:46:29,621 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-10-31 14:46:29,626 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-31 14:46:36,794 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-10-31 14:46:38,608 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-10-31 14:46:38,614 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-31 14:46:46,049 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-10-31 14:46:47,898 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-10-31 14:46:47,904 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-10-31 14:47:04,375 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+[2025-10-31 14:47:34 +0800] [1031557] [CRITICAL] WORKER TIMEOUT (pid:1031561)
+[2025-10-31 14:47:34 +0800] [1031561] [ERROR] Error handling request /api/sensitive
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 177, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 207, in get_sensitive
+    sensitive_words = get_sensitive_words()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 96, in get_sensitive_words
+    resp = requests.get(url, headers=headers, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/urllib3/connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/workers/base.py", line 204, in handle_abort
+    sys.exit(1)
+SystemExit: 1
+[2025-10-31 14:47:34 +0800] [1031561] [INFO] Worker exiting (pid: 1031561)
+[2025-10-31 14:47:34 +0800] [846666] [INFO] Booting worker with pid: 846666
+2025-10-31 14:48:00,567 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-10-31 14:48:02,910 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-10-31 14:48:02,916 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-11-03 11:02:50,784 [INFO] [ap_user] ✅ 用户 ap_user 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'ap_user'}>
+2025-11-03 11:02:58,818 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-11-03 11:03:01,701 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-11-03 11:03:01,707 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-11-03 11:03:23,511 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-11-03 11:03:25,807 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-11-03 11:03:25,814 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-11-03 11:30:41,579 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-11-03 11:30:43,872 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-11-03 11:30:43,878 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-11-03 11:30:52,409 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-11-03 11:30:54,438 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-11-03 11:30:54,444 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-11-03 14:41:01,217 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-11-03 14:41:03,586 [INFO] [yuki_ht] ✅ 用户 yuki_ht 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'yuki_ht'}>
+2025-11-03 14:41:09,483 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-11-03 14:41:11,724 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+[2025-11-03 14:41:45 +0800] [1031557] [CRITICAL] WORKER TIMEOUT (pid:1031560)
+[2025-11-03 14:41:45 +0800] [1031560] [ERROR] Error handling request /api/sensitive
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 134, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 177, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 207, in get_sensitive
+    sensitive_words = get_sensitive_words()
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 83, in get_sensitive_words
+    token = get_tenant_access_token()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 66, in get_tenant_access_token
+    resp = requests.post(url, json=payload, headers=headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/urllib3/connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/workers/base.py", line 204, in handle_abort
+    sys.exit(1)
+SystemExit: 1
+[2025-11-03 14:41:45 +0800] [1031560] [INFO] Worker exiting (pid: 1031560)
+[2025-11-03 14:41:45 +0800] [2181527] [INFO] Booting worker with pid: 2181527
+2025-11-03 14:41:53,725 [INFO] [yuki_ht] ✅ 成功获取 tenant_access_token
+2025-11-03 14:41:55,749 [INFO] [yuki_ht] ✅ 共加载敏感词 847 条
+2025-11-03 14:41:55,755 [INFO] [yuki_ht] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-11-03 14:42:18,769 [INFO] [yuki_ht] ✅ 成功获取 tenant_access_token
+2025-11-03 14:42:20,886 [INFO] [yuki_ht] ✅ 共加载敏感词 847 条
+2025-11-03 14:42:20,893 [INFO] [yuki_ht] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-11-04 10:16:35,193 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-11-04 10:16:37,009 [INFO] [nako_user] ✅ 用户 nako_user 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'nako_user'}>
+2025-11-04 10:16:47,200 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-11-04 10:16:48,851 [INFO] [FilterUser] ✅ 用户 FilterUser 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'FilterUser'}>
+2025-11-04 10:17:23,886 [INFO] [FilterUser] ✅ 成功获取 tenant_access_token
+2025-11-04 10:17:26,016 [INFO] [FilterUser] ✅ 共加载敏感词 847 条
+2025-11-04 10:17:26,020 [INFO] [FilterUser] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-11-04 10:18:53,665 [INFO] [FilterUser] ✅ 成功获取 tenant_access_token
+2025-11-04 10:18:55,745 [INFO] [FilterUser] ✅ 共加载敏感词 847 条
+2025-11-04 10:18:55,749 [INFO] [FilterUser] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-11-05 11:04:11,333 [INFO] [ap_user] ✅ 用户 ap_user 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'ap_user'}>
+2025-11-05 11:04:20,297 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-11-05 11:04:22,468 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-11-05 11:04:22,472 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+2025-11-05 11:04:51,538 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-11-05 11:04:54,003 [INFO] [ap_user] ✅ 共加载敏感词 847 条
+2025-11-05 11:04:54,008 [INFO] [ap_user] ✅ 返回敏感词 847 条（GZIP 压缩）
+[2025-11-07 11:53:05 +0800] [3311] [INFO] Starting gunicorn 23.0.0
+[2025-11-07 11:53:05 +0800] [3311] [INFO] Listening at: http://0.0.0.0:5500 (3311)
+[2025-11-07 11:53:05 +0800] [3311] [INFO] Using worker: sync
+[2025-11-07 11:53:05 +0800] [3520] [INFO] Booting worker with pid: 3520
+[2025-11-07 11:53:05 +0800] [3559] [INFO] Booting worker with pid: 3559
+[2025-11-07 11:53:05 +0800] [3569] [INFO] Booting worker with pid: 3569
+[2025-11-07 11:53:05 +0800] [3584] [INFO] Booting worker with pid: 3584
+2025-11-08 14:20:16,041 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-11-08 14:20:18,146 [ERROR] [anonymous] Exception on / [POST]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 661, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 851, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.11/socket.py", line 836, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 157, in login
+    if check_user(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 136, in check_user
+    conn = pymysql.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 365, in __init__
+    self.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 723, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '43.153.149.113' ([Errno 111] Connection refused)")
+2025-11-08 14:20:21,563 [ERROR] [anonymous] Exception on / [POST]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 661, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 851, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.11/socket.py", line 836, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 157, in login
+    if check_user(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 136, in check_user
+    conn = pymysql.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 365, in __init__
+    self.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 723, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '43.153.149.113' ([Errno 111] Connection refused)")
+2025-11-08 14:20:37,635 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-11-08 15:01:23,482 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-11-08 15:01:24,953 [ERROR] [anonymous] Exception on / [POST]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 661, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 851, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.11/socket.py", line 836, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 157, in login
+    if check_user(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 136, in check_user
+    conn = pymysql.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 365, in __init__
+    self.connect()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/pymysql/connections.py", line 723, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '43.153.149.113' ([Errno 111] Connection refused)")
+[2025-11-10 10:46:10 +0800] [3559] [INFO] Worker exiting (pid: 3559)
+[2025-11-10 10:46:10 +0800] [3569] [INFO] Worker exiting (pid: 3569)
+[2025-11-10 10:46:10 +0800] [3584] [INFO] Worker exiting (pid: 3584)
+[2025-11-10 10:46:10 +0800] [3311] [INFO] Handling signal: term
+[2025-11-10 10:46:10 +0800] [3520] [INFO] Worker exiting (pid: 3520)
+[2025-11-10 10:46:10 +0800] [3311] [ERROR] Worker (pid:3569) was sent SIGTERM!
+[2025-11-10 10:46:10 +0800] [3311] [ERROR] Worker (pid:3559) was sent SIGTERM!
+[2025-11-10 10:46:10 +0800] [3311] [ERROR] Worker (pid:3584) was sent SIGTERM!
+[2025-11-10 10:46:10 +0800] [3311] [INFO] Shutting down: Master
+[2025-11-10 10:46:11 +0800] [1321912] [INFO] Starting gunicorn 23.0.0
+[2025-11-10 10:46:11 +0800] [1321912] [INFO] Listening at: http://0.0.0.0:5500 (1321912)
+[2025-11-10 10:46:11 +0800] [1321912] [INFO] Using worker: sync
+[2025-11-10 10:46:11 +0800] [1321914] [INFO] Booting worker with pid: 1321914
+[2025-11-10 10:46:11 +0800] [1321915] [INFO] Booting worker with pid: 1321915
+[2025-11-10 10:46:11 +0800] [1321916] [INFO] Booting worker with pid: 1321916
+[2025-11-10 10:46:11 +0800] [1321917] [INFO] Booting worker with pid: 1321917
+2025-11-10 10:48:17,396 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc'}>
+[2025-11-10 10:50:27 +0800] [1321915] [INFO] Worker exiting (pid: 1321915)
+[2025-11-10 10:50:27 +0800] [1321916] [INFO] Worker exiting (pid: 1321916)
+[2025-11-10 10:50:27 +0800] [1321914] [INFO] Worker exiting (pid: 1321914)
+[2025-11-10 10:50:27 +0800] [1321912] [INFO] Handling signal: term
+[2025-11-10 10:50:27 +0800] [1321917] [INFO] Worker exiting (pid: 1321917)
+[2025-11-10 10:50:27 +0800] [1321912] [ERROR] Worker (pid:1321916) was sent SIGTERM!
+[2025-11-10 10:50:27 +0800] [1321912] [ERROR] Worker (pid:1321914) was sent SIGTERM!
+[2025-11-10 10:50:27 +0800] [1321912] [ERROR] Worker (pid:1321915) was sent SIGTERM!
+[2025-11-10 10:50:27 +0800] [1321912] [INFO] Shutting down: Master
+[2025-11-10 10:50:28 +0800] [1323222] [INFO] Starting gunicorn 23.0.0
+[2025-11-10 10:50:28 +0800] [1323222] [INFO] Listening at: http://0.0.0.0:5500 (1323222)
+[2025-11-10 10:50:28 +0800] [1323222] [INFO] Using worker: sync
+[2025-11-10 10:50:28 +0800] [1323223] [INFO] Booting worker with pid: 1323223
+[2025-11-10 10:50:28 +0800] [1323224] [INFO] Booting worker with pid: 1323224
+[2025-11-10 10:50:28 +0800] [1323227] [INFO] Booting worker with pid: 1323227
+[2025-11-10 10:50:28 +0800] [1323230] [INFO] Booting worker with pid: 1323230
+2025-11-10 10:50:33,008 [INFO] [anonymous] ✅ 用户 pub_pc 登出
+2025-11-10 10:50:40,204 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc'}>
+2025-11-10 10:50:54,080 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-11-10 10:50:56,302 [WARNING] [anonymous] ❌ 用户 1 登录失败
+2025-11-10 10:51:04,151 [WARNING] [anonymous] ❌ 用户 1 登录失败
+2025-11-10 10:51:07,367 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc'}>
+2025-11-10 10:55:46,411 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-10 10:55:48,519 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-10 10:55:48,525 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-10 10:56:36,479 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-10 10:56:38,819 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-10 10:56:38,824 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-10 10:56:44,768 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-10 10:56:46,847 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-10 10:56:46,852 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+[2025-11-10 11:22:47 +0800] [852] [INFO] Starting gunicorn 23.0.0
+[2025-11-10 11:22:47 +0800] [852] [INFO] Listening at: http://0.0.0.0:5500 (852)
+[2025-11-10 11:22:47 +0800] [852] [INFO] Using worker: sync
+[2025-11-10 11:22:47 +0800] [1006] [INFO] Booting worker with pid: 1006
+[2025-11-10 11:22:47 +0800] [1007] [INFO] Booting worker with pid: 1007
+[2025-11-10 11:22:47 +0800] [1008] [INFO] Booting worker with pid: 1008
+[2025-11-10 11:22:47 +0800] [1010] [INFO] Booting worker with pid: 1010
+2025-11-10 11:23:19,412 [INFO] [anonymous] ✅ 用户 pub_pc 登出
+2025-11-10 11:23:22,475 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-11-10 11:23:36,270 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-10 11:23:38,461 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-10 11:23:38,467 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+[2025-11-10 11:30:20 +0800] [1007] [INFO] Worker exiting (pid: 1007)
+[2025-11-10 11:30:20 +0800] [1006] [INFO] Worker exiting (pid: 1006)
+[2025-11-10 11:30:20 +0800] [1010] [INFO] Worker exiting (pid: 1010)
+[2025-11-10 11:30:20 +0800] [1008] [INFO] Worker exiting (pid: 1008)
+[2025-11-10 11:30:20 +0800] [852] [INFO] Handling signal: term
+[2025-11-10 11:30:20 +0800] [852] [ERROR] Worker (pid:1006) was sent SIGTERM!
+--- Logging error ---
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 223, in run
+    handler()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 256, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/logging/__init__.py", line 1113, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/logging/__init__.py", line 1113, in emit
+    stream.write(msg + self.terminator)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 241, in handle_chld
+    self.reap_workers()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 553, in reap_workers
+    self.log.error(msg)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/glogging.py", line 271, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.11/logging/__init__.py", line 1518, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.11/logging/__init__.py", line 1634, in _log
+    self.handle(record)
+  File "/usr/lib/python3.11/logging/__init__.py", line 1644, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.11/logging/__init__.py", line 1706, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.11/logging/__init__.py", line 978, in handle
+    self.emit(record)
+  File "/usr/lib/python3.11/logging/__init__.py", line 1118, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.11/logging/__init__.py", line 1031, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/var/www/filter.erebus.fun/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/app/wsgiapp.py", line 66, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]", prog=prog).run()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/app/base.py", line 235, in run
+    super().run()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/app/base.py", line 71, in run
+    Arbiter(self).run()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 226, in run
+    self.halt()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 341, in halt
+    self.stop()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 395, in stop
+    time.sleep(0.1)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 241, in handle_chld
+    self.reap_workers()
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 553, in reap_workers
+    self.log.error(msg)
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/gunicorn/glogging.py", line 271, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:1006) was sent SIGTERM!'
+Arguments: ()
+[2025-11-10 11:30:20 +0800] [852] [ERROR] Worker (pid:1008) was sent SIGTERM!
+[2025-11-10 11:30:20 +0800] [852] [ERROR] Worker (pid:1010) was sent SIGTERM!
+[2025-11-10 11:30:50 +0800] [852] [INFO] Shutting down: Master
+[2025-11-10 11:30:50 +0800] [4335] [INFO] Starting gunicorn 23.0.0
+[2025-11-10 11:30:50 +0800] [4335] [INFO] Listening at: http://0.0.0.0:5500 (4335)
+[2025-11-10 11:30:50 +0800] [4335] [INFO] Using worker: sync
+[2025-11-10 11:30:50 +0800] [4342] [INFO] Booting worker with pid: 4342
+[2025-11-10 11:30:50 +0800] [4348] [INFO] Booting worker with pid: 4348
+[2025-11-10 11:30:50 +0800] [4349] [INFO] Booting worker with pid: 4349
+[2025-11-10 11:30:50 +0800] [4355] [INFO] Booting worker with pid: 4355
+[2025-11-10 11:30:52 +0800] [4342] [INFO] Worker exiting (pid: 4342)
+[2025-11-10 11:30:52 +0800] [4335] [INFO] Handling signal: term
+[2025-11-10 11:30:52 +0800] [4348] [INFO] Worker exiting (pid: 4348)
+[2025-11-10 11:30:52 +0800] [4349] [INFO] Worker exiting (pid: 4349)
+[2025-11-10 11:30:52 +0800] [4355] [INFO] Worker exiting (pid: 4355)
+[2025-11-10 11:30:52 +0800] [4335] [ERROR] Worker (pid:4348) was sent SIGTERM!
+[2025-11-10 11:30:52 +0800] [4335] [INFO] Shutting down: Master
+[2025-11-10 11:30:52 +0800] [4364] [INFO] Starting gunicorn 23.0.0
+[2025-11-10 11:30:52 +0800] [4364] [INFO] Listening at: http://0.0.0.0:5500 (4364)
+[2025-11-10 11:30:52 +0800] [4364] [INFO] Using worker: sync
+[2025-11-10 11:30:52 +0800] [4366] [INFO] Booting worker with pid: 4366
+[2025-11-10 11:30:52 +0800] [4367] [INFO] Booting worker with pid: 4367
+[2025-11-10 11:30:53 +0800] [4368] [INFO] Booting worker with pid: 4368
+[2025-11-10 11:30:53 +0800] [4369] [INFO] Booting worker with pid: 4369
+2025-11-10 11:31:01,661 [INFO] [anonymous] ✅ 用户 pub_pc 登出
+2025-11-10 11:31:03,854 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-10 11:31:15,260 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-11-10 11:31:18,424 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-10 11:31:24,790 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-11-10 14:05:44,298 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问 /audit
+2025-11-10 14:48:39,275 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-10 14:48:39,412 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-10 16:12:47,936 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-10 16:12:53,204 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-10 16:12:55,585 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-10 16:12:55,590 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-10 16:13:16,664 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-10 16:13:18,808 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-10 16:13:18,813 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+[2025-11-10 17:01:33 +0800] [4366] [INFO] Worker exiting (pid: 4366)
+[2025-11-10 17:01:33 +0800] [4364] [INFO] Handling signal: term
+[2025-11-10 17:01:33 +0800] [4367] [INFO] Worker exiting (pid: 4367)
+[2025-11-10 17:01:33 +0800] [4368] [INFO] Worker exiting (pid: 4368)
+[2025-11-10 17:01:33 +0800] [4369] [INFO] Worker exiting (pid: 4369)
+[2025-11-10 17:01:33 +0800] [4364] [ERROR] Worker (pid:4367) was sent SIGTERM!
+[2025-11-10 17:01:33 +0800] [4364] [ERROR] Worker (pid:4368) was sent SIGTERM!
+[2025-11-10 17:01:33 +0800] [4364] [ERROR] Worker (pid:4369) was sent SIGTERM!
+[2025-11-10 17:01:33 +0800] [4364] [ERROR] Worker (pid:4366) was sent SIGTERM!
+[2025-11-10 17:01:33 +0800] [4364] [INFO] Shutting down: Master
+[2025-11-10 17:01:57 +0800] [852] [INFO] Starting gunicorn 23.0.0
+[2025-11-10 17:01:57 +0800] [852] [INFO] Listening at: http://0.0.0.0:5500 (852)
+[2025-11-10 17:01:57 +0800] [852] [INFO] Using worker: sync
+[2025-11-10 17:01:57 +0800] [1071] [INFO] Booting worker with pid: 1071
+[2025-11-10 17:01:57 +0800] [1077] [INFO] Booting worker with pid: 1077
+[2025-11-10 17:01:57 +0800] [1076] [INFO] Booting worker with pid: 1076
+[2025-11-10 17:01:57 +0800] [1083] [INFO] Booting worker with pid: 1083
+2025-11-10 17:02:26,964 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 177, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:02:28,315 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 177, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:02:29,259 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 177, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:02:40,938 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 177, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+[2025-11-10 17:17:20 +0800] [1077] [INFO] Worker exiting (pid: 1077)
+[2025-11-10 17:17:20 +0800] [1076] [INFO] Worker exiting (pid: 1076)
+[2025-11-10 17:17:20 +0800] [1071] [INFO] Worker exiting (pid: 1071)
+[2025-11-10 17:17:20 +0800] [852] [INFO] Handling signal: term
+[2025-11-10 17:17:20 +0800] [1083] [INFO] Worker exiting (pid: 1083)
+[2025-11-10 17:17:20 +0800] [852] [ERROR] Worker (pid:1071) was sent SIGTERM!
+[2025-11-10 17:17:20 +0800] [852] [ERROR] Worker (pid:1076) was sent SIGTERM!
+[2025-11-10 17:17:20 +0800] [852] [ERROR] Worker (pid:1083) was sent SIGTERM!
+[2025-11-10 17:17:20 +0800] [852] [ERROR] Worker (pid:1077) was sent SIGTERM!
+[2025-11-10 17:17:20 +0800] [852] [INFO] Shutting down: Master
+[2025-11-10 17:17:20 +0800] [6741] [INFO] Starting gunicorn 23.0.0
+[2025-11-10 17:17:20 +0800] [6741] [INFO] Listening at: http://0.0.0.0:5500 (6741)
+[2025-11-10 17:17:20 +0800] [6741] [INFO] Using worker: sync
+[2025-11-10 17:17:20 +0800] [6743] [INFO] Booting worker with pid: 6743
+[2025-11-10 17:17:20 +0800] [6744] [INFO] Booting worker with pid: 6744
+[2025-11-10 17:17:21 +0800] [6745] [INFO] Booting worker with pid: 6745
+[2025-11-10 17:17:21 +0800] [6746] [INFO] Booting worker with pid: 6746
+2025-11-10 17:17:25,648 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 192, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:17:26,622 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 192, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:17:27,199 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 192, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:17:30,325 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 192, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+[2025-11-10 17:19:02 +0800] [6745] [INFO] Worker exiting (pid: 6745)
+[2025-11-10 17:19:02 +0800] [6746] [INFO] Worker exiting (pid: 6746)
+[2025-11-10 17:19:02 +0800] [6743] [INFO] Worker exiting (pid: 6743)
+[2025-11-10 17:19:02 +0800] [6744] [INFO] Worker exiting (pid: 6744)
+[2025-11-10 17:19:02 +0800] [6741] [INFO] Handling signal: term
+[2025-11-10 17:19:02 +0800] [6741] [ERROR] Worker (pid:6746) was sent SIGTERM!
+[2025-11-10 17:19:02 +0800] [6741] [ERROR] Worker (pid:6743) was sent SIGTERM!
+[2025-11-10 17:19:02 +0800] [6741] [ERROR] Worker (pid:6745) was sent SIGTERM!
+[2025-11-10 17:19:02 +0800] [6741] [ERROR] Worker (pid:6744) was sent SIGTERM!
+[2025-11-10 17:19:02 +0800] [6741] [INFO] Shutting down: Master
+[2025-11-10 17:19:02 +0800] [7257] [INFO] Starting gunicorn 23.0.0
+[2025-11-10 17:19:02 +0800] [7257] [INFO] Listening at: http://0.0.0.0:5500 (7257)
+[2025-11-10 17:19:02 +0800] [7257] [INFO] Using worker: sync
+[2025-11-10 17:19:02 +0800] [7259] [INFO] Booting worker with pid: 7259
+[2025-11-10 17:19:02 +0800] [7260] [INFO] Booting worker with pid: 7260
+[2025-11-10 17:19:02 +0800] [7261] [INFO] Booting worker with pid: 7261
+[2025-11-10 17:19:02 +0800] [7262] [INFO] Booting worker with pid: 7262
+2025-11-10 17:19:16,162 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 192, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:19:18,086 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 192, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:19:18,798 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 192, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:19:19,382 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 192, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:19:19,827 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 192, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+[2025-11-10 17:21:12 +0800] [7262] [INFO] Worker exiting (pid: 7262)
+[2025-11-10 17:21:12 +0800] [7259] [INFO] Worker exiting (pid: 7259)
+[2025-11-10 17:21:12 +0800] [7260] [INFO] Worker exiting (pid: 7260)
+[2025-11-10 17:21:12 +0800] [7257] [INFO] Handling signal: term
+[2025-11-10 17:21:12 +0800] [7261] [INFO] Worker exiting (pid: 7261)
+[2025-11-10 17:21:12 +0800] [7257] [ERROR] Worker (pid:7262) was sent SIGTERM!
+[2025-11-10 17:21:12 +0800] [7257] [ERROR] Worker (pid:7260) was sent SIGTERM!
+[2025-11-10 17:21:12 +0800] [7257] [ERROR] Worker (pid:7259) was sent SIGTERM!
+[2025-11-10 17:21:12 +0800] [7257] [INFO] Shutting down: Master
+[2025-11-10 17:21:13 +0800] [7941] [INFO] Starting gunicorn 23.0.0
+[2025-11-10 17:21:13 +0800] [7941] [INFO] Listening at: http://0.0.0.0:5500 (7941)
+[2025-11-10 17:21:13 +0800] [7941] [INFO] Using worker: sync
+[2025-11-10 17:21:13 +0800] [7943] [INFO] Booting worker with pid: 7943
+[2025-11-10 17:21:13 +0800] [7944] [INFO] Booting worker with pid: 7944
+[2025-11-10 17:21:13 +0800] [7945] [INFO] Booting worker with pid: 7945
+[2025-11-10 17:21:13 +0800] [7948] [INFO] Booting worker with pid: 7948
+2025-11-10 17:21:16,692 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 197, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:21:18,034 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 197, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:21:18,598 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 197, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:21:19,114 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 197, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:21:19,624 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 197, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:21:20,098 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 197, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:21:20,686 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 197, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+2025-11-10 17:21:21,163 [ERROR] [pub_pc] Exception on / [GET]
+Traceback (most recent call last):
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/app.py", line 197, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/flask/templating.py", line 96, in _get_source_fast
+    return loader.get_source(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/filter.erebus.fun/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 215, in get_source
+    contents = f.read()
+               ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 7119-7120: invalid continuation byte
+[2025-11-10 17:27:04 +0800] [7945] [INFO] Worker exiting (pid: 7945)
+[2025-11-10 17:27:04 +0800] [7944] [INFO] Worker exiting (pid: 7944)
+[2025-11-10 17:27:04 +0800] [7948] [INFO] Worker exiting (pid: 7948)
+[2025-11-10 17:27:04 +0800] [7943] [INFO] Worker exiting (pid: 7943)
+[2025-11-10 17:27:04 +0800] [7941] [INFO] Handling signal: term
+[2025-11-10 17:27:04 +0800] [7941] [ERROR] Worker (pid:7943) was sent SIGTERM!
+[2025-11-10 17:27:04 +0800] [7941] [ERROR] Worker (pid:7945) was sent SIGTERM!
+[2025-11-10 17:27:04 +0800] [7941] [ERROR] Worker (pid:7948) was sent SIGTERM!
+[2025-11-10 17:27:04 +0800] [7941] [ERROR] Worker (pid:7944) was sent SIGTERM!
+[2025-11-10 17:27:04 +0800] [7941] [INFO] Shutting down: Master
+[2025-11-10 17:27:04 +0800] [9739] [INFO] Starting gunicorn 23.0.0
+[2025-11-10 17:27:04 +0800] [9739] [INFO] Listening at: http://0.0.0.0:5500 (9739)
+[2025-11-10 17:27:04 +0800] [9739] [INFO] Using worker: sync
+[2025-11-10 17:27:04 +0800] [9741] [INFO] Booting worker with pid: 9741
+[2025-11-10 17:27:04 +0800] [9742] [INFO] Booting worker with pid: 9742
+[2025-11-10 17:27:04 +0800] [9743] [INFO] Booting worker with pid: 9743
+[2025-11-10 17:27:04 +0800] [9744] [INFO] Booting worker with pid: 9744
+2025-11-10 17:28:38,550 [INFO] [anonymous] ✅ 用户 pub_pc 登出
+2025-11-10 17:28:47,382 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 17:28:50,466 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 17:29:05,455 [INFO] [anonymous] ✅ 用户 pub_pc 登出
+2025-11-10 17:29:09,752 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 17:29:28,297 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-10 17:30:12,688 [INFO] [anonymous] ✅ 用户 pub_pc 登出
+[2025-11-10 17:35:14 +0800] [9741] [INFO] Worker exiting (pid: 9741)
+[2025-11-10 17:35:14 +0800] [9744] [INFO] Worker exiting (pid: 9744)
+[2025-11-10 17:35:14 +0800] [9742] [INFO] Worker exiting (pid: 9742)
+[2025-11-10 17:35:14 +0800] [9743] [INFO] Worker exiting (pid: 9743)
+[2025-11-10 17:35:14 +0800] [9739] [INFO] Handling signal: term
+[2025-11-10 17:35:14 +0800] [9739] [ERROR] Worker (pid:9743) was sent SIGTERM!
+[2025-11-10 17:35:14 +0800] [9739] [ERROR] Worker (pid:9744) was sent SIGTERM!
+[2025-11-10 17:35:14 +0800] [9739] [ERROR] Worker (pid:9742) was sent SIGTERM!
+[2025-11-10 17:35:14 +0800] [9739] [ERROR] Worker (pid:9741) was sent SIGTERM!
+[2025-11-10 17:35:14 +0800] [9739] [INFO] Shutting down: Master
+[2025-11-10 17:35:14 +0800] [12274] [INFO] Starting gunicorn 23.0.0
+[2025-11-10 17:35:14 +0800] [12274] [INFO] Listening at: http://0.0.0.0:5500 (12274)
+[2025-11-10 17:35:14 +0800] [12274] [INFO] Using worker: sync
+[2025-11-10 17:35:14 +0800] [12276] [INFO] Booting worker with pid: 12276
+[2025-11-10 17:35:14 +0800] [12277] [INFO] Booting worker with pid: 12277
+[2025-11-10 17:35:14 +0800] [12278] [INFO] Booting worker with pid: 12278
+[2025-11-10 17:35:14 +0800] [12279] [INFO] Booting worker with pid: 12279
+2025-11-10 17:35:31,833 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 17:35:42,004 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-10 17:35:46,682 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+[2025-11-10 17:36:26 +0800] [12276] [INFO] Worker exiting (pid: 12276)
+[2025-11-10 17:36:26 +0800] [12278] [INFO] Worker exiting (pid: 12278)
+[2025-11-10 17:36:26 +0800] [12274] [INFO] Handling signal: term
+[2025-11-10 17:36:26 +0800] [12279] [INFO] Worker exiting (pid: 12279)
+[2025-11-10 17:36:26 +0800] [12274] [ERROR] Worker (pid:12276) was sent SIGTERM!
+[2025-11-10 17:36:26 +0800] [12277] [INFO] Worker exiting (pid: 12277)
+[2025-11-10 17:36:26 +0800] [12274] [INFO] Shutting down: Master
+[2025-11-10 17:36:27 +0800] [12643] [INFO] Starting gunicorn 23.0.0
+[2025-11-10 17:36:27 +0800] [12643] [INFO] Listening at: http://0.0.0.0:5500 (12643)
+[2025-11-10 17:36:27 +0800] [12643] [INFO] Using worker: sync
+[2025-11-10 17:36:27 +0800] [12645] [INFO] Booting worker with pid: 12645
+[2025-11-10 17:36:27 +0800] [12646] [INFO] Booting worker with pid: 12646
+[2025-11-10 17:36:27 +0800] [12647] [INFO] Booting worker with pid: 12647
+[2025-11-10 17:36:27 +0800] [12648] [INFO] Booting worker with pid: 12648
+2025-11-10 17:36:43,193 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 17:36:47,775 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-10 17:36:53,700 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 17:37:20,544 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 17:37:22,418 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 17:50:34,383 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 17:50:47,674 [WARNING] [anonymous] ❌ 用户 root 登录失败
+2025-11-10 17:51:42,680 [WARNING] [anonymous] ❌ 用户 pub_pc 登录失败
+2025-11-10 17:53:24,856 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-10 20:26:27,343 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 20:55:52,735 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 20:55:53,484 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 21:43:37,015 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 21:43:53,172 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 21:53:19,540 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 22:00:55,400 [WARNING] [anonymous] ❌ 用户 admin 登录失败
+2025-11-10 22:01:43,871 [INFO] [FilterUser] ✅ 用户 FilterUser 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'FilterUser', '_permanent': True}>
+2025-11-10 22:04:09,815 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 22:38:31,966 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 22:47:40,129 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 22:47:40,695 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 22:47:59,027 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-10 23:04:35,699 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-10 23:59:08,507 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-11 15:14:44,106 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-11 16:09:51,998 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-11 16:11:32,243 [INFO] [yuki_ht] ✅ 用户 yuki_ht 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'yuki_ht', '_permanent': True}>
+2025-11-11 16:11:50,658 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-11 16:22:28,685 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-11 16:52:24,401 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': True}>
+2025-11-11 17:08:54,835 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-11 17:11:24,935 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-11 17:11:27,205 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-11 17:11:27,209 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-11 17:14:20,000 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-11 17:17:07,659 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-11 17:17:09,980 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-11 17:17:09,985 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-11 17:18:51,469 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-11 17:18:53,744 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-11 17:18:53,749 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-11 17:20:59,631 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-11 17:21:01,769 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-11 17:21:01,775 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-11 17:21:09,498 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-11 17:21:11,500 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-11 17:21:11,505 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-12 07:16:09,491 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-12 10:39:34,318 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-12 10:39:34,615 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-12 10:39:34,789 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-12 10:39:34,933 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-12 10:39:35,126 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-12 10:39:35,253 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-12 10:41:28,781 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-12 12:32:14,108 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-12 16:49:40,032 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-12 16:49:43,917 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-12 16:49:44,693 [INFO] [ap_user] ✅ 用户 ap_user 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'ap_user', '_permanent': True}>
+2025-11-12 16:50:12,542 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-11-12 16:50:14,932 [INFO] [ap_user] ✅ 共加载敏感词 846 条
+2025-11-12 16:50:14,936 [INFO] [ap_user] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-12 16:50:31,843 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-11-12 16:50:33,955 [INFO] [ap_user] ✅ 共加载敏感词 846 条
+2025-11-12 16:50:33,960 [INFO] [ap_user] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 07:54:58,542 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 11:46:32,325 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 15:41:05,079 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 16:25:36,988 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': True}>
+2025-11-13 16:26:00,022 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-13 16:26:02,712 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-13 16:26:02,718 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:26:10,486 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-13 16:26:12,581 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-13 16:26:12,588 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:26:32,178 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-13 16:26:34,258 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-13 16:26:34,264 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:26:43,661 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-13 16:26:45,561 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-13 16:26:45,567 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:27:11,040 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-13 16:27:13,106 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-13 16:27:13,112 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:27:27,566 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-13 16:27:29,623 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-13 16:27:29,631 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:28:15,422 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-13 16:28:17,522 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-13 16:28:17,527 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:28:44,612 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-13 16:28:46,514 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-13 16:28:46,522 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:29:00,570 [INFO] [yuki_ht] ✅ 用户 yuki_ht 登录成功，Session: <SecureCookieSession {'_permanent': True, 'logged_in': True, 'username': 'yuki_ht'}>
+2025-11-13 16:29:15,928 [INFO] [yuki_ht] ✅ 成功获取 tenant_access_token
+2025-11-13 16:29:18,106 [INFO] [yuki_ht] ✅ 共加载敏感词 846 条
+2025-11-13 16:29:18,112 [INFO] [yuki_ht] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:29:22,862 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 16:30:03,473 [INFO] [yuki_ht] ✅ 成功获取 tenant_access_token
+2025-11-13 16:30:06,122 [INFO] [yuki_ht] ✅ 共加载敏感词 846 条
+2025-11-13 16:30:06,128 [INFO] [yuki_ht] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:30:45,866 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-11-13 16:30:47,858 [INFO] [ap_user] ✅ 共加载敏感词 846 条
+2025-11-13 16:30:47,873 [INFO] [ap_user] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:31:23,924 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-11-13 16:31:26,111 [INFO] [ap_user] ✅ 共加载敏感词 846 条
+2025-11-13 16:31:26,117 [INFO] [ap_user] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:32:22,191 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 16:32:45,205 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-13 16:32:47,126 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-13 16:32:47,131 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 16:32:59,609 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-13 16:33:01,740 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-13 16:33:01,749 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-13 17:11:57,752 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 17:16:39,949 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 17:17:00,913 [INFO] [yuki_ht] ✅ 用户 yuki_ht 登录成功，Session: <SecureCookieSession {'_permanent': True, 'logged_in': True, 'username': 'yuki_ht'}>
+2025-11-13 22:10:55,403 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 22:10:56,123 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 22:10:56,625 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 22:10:56,810 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 22:10:57,150 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 22:10:57,305 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 22:10:57,481 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-13 22:10:57,601 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 12:03:08,980 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 15:38:38,293 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 15:54:45,565 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-14 16:08:30,753 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 16:08:47,512 [WARNING] [anonymous] ❌ 用户 public 登录失败
+2025-11-14 16:10:52,060 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-14 16:11:49,191 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 16:12:02,518 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-14 16:25:55,397 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 16:26:06,348 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-14 16:32:21,228 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 16:32:34,044 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-14 16:36:19,129 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-14 16:36:21,208 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-14 16:36:21,213 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-14 16:36:32,714 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-14 16:36:34,688 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-14 16:36:34,694 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-14 16:44:08,874 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 16:44:16,674 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-14 16:44:23,894 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-14 16:44:25,847 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-14 16:44:25,852 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-14 16:52:25,340 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 16:52:35,502 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-14 16:52:40,808 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-14 16:52:42,796 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-14 16:52:42,801 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-14 17:21:12,836 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-11-14 17:21:14,796 [INFO] [ap_user] ✅ 共加载敏感词 846 条
+2025-11-14 17:21:14,801 [INFO] [ap_user] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-14 17:23:52,777 [INFO] [ap_user] ✅ 成功获取 tenant_access_token
+2025-11-14 17:23:54,594 [INFO] [ap_user] ✅ 共加载敏感词 846 条
+2025-11-14 17:23:54,598 [INFO] [ap_user] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-14 21:23:25,760 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 21:46:24,569 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 21:46:24,923 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 21:46:25,109 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 21:46:25,257 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 21:46:25,511 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-14 21:46:25,637 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 06:44:34,413 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 06:44:51,916 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-15 06:46:02,653 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-15 06:46:04,188 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-15 06:46:04,193 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-15 06:47:37,463 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 06:48:22,507 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 06:48:24,448 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-15 06:48:35,731 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-15 06:48:37,141 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-15 06:48:37,145 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-15 06:54:40,268 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 06:54:41,273 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 06:54:42,861 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 06:59:16,967 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 06:59:17,747 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 06:59:47,348 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 07:25:02,248 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 07:41:32,262 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 15:35:14,020 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 16:53:38,012 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 16:53:38,500 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 16:53:38,728 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 16:53:38,862 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 16:53:39,052 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-15 16:53:39,167 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-16 14:25:03,511 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-16 14:55:50,370 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-16 15:19:02,969 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-16 15:19:35,658 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-16 15:23:10,094 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-17 09:03:34,797 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-17 09:03:45,132 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-17 09:12:33,837 [INFO] [pub_pc] ✅ 成功获取 tenant_access_token
+2025-11-17 09:12:35,840 [INFO] [pub_pc] ✅ 共加载敏感词 846 条
+2025-11-17 09:12:35,847 [INFO] [pub_pc] ✅ 返回敏感词 846 条（GZIP 压缩）
+2025-11-17 09:37:28,062 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-17 09:52:09,194 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-17 10:17:52,487 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-17 11:50:26,047 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-17 12:04:22,016 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-17 12:29:18,139 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-17 12:29:31,327 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-17 15:43:47,208 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-18 17:27:41,998 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-19 09:54:23,514 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-19 10:52:44,335 [INFO] [FilterUser] ✅ 用户 FilterUser 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'FilterUser', '_permanent': False}>
+2025-11-19 10:52:58,208 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-19 11:43:45,369 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-19 12:15:11,794 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-19 13:23:51,249 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-19 14:18:25,411 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-19 19:46:18,903 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-19 20:08:27,684 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-19 20:08:33,451 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-19 20:18:46,293 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-19 22:14:42,790 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 00:12:54,970 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 01:06:31,741 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 07:54:23,947 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 08:58:34,324 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 08:58:34,773 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 08:58:34,961 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 08:58:35,185 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 08:58:35,559 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 08:58:35,891 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 08:58:36,262 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 08:58:36,421 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 08:58:36,598 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 08:58:36,819 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 11:20:01,140 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 11:20:13,788 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+2025-11-20 11:31:10,201 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 11:31:20,674 [INFO] [pub_pc] ✅ 用户 pub_pc 登录成功，Session: <SecureCookieSession {'logged_in': True, 'username': 'pub_pc', '_permanent': False}>
+[2025-11-20 11:31:49 +0800] [12643] [INFO] Handling signal: term
+[2025-11-20 11:31:49 +0800] [12645] [INFO] Worker exiting (pid: 12645)
+[2025-11-20 11:31:49 +0800] [12647] [INFO] Worker exiting (pid: 12647)
+[2025-11-20 11:31:49 +0800] [12648] [INFO] Worker exiting (pid: 12648)
+[2025-11-20 11:31:49 +0800] [12646] [INFO] Worker exiting (pid: 12646)
+[2025-11-20 11:31:49 +0800] [12643] [INFO] Shutting down: Master
+[2025-11-20 11:31:50 +0800] [185690] [INFO] Starting gunicorn 23.0.0
+[2025-11-20 11:31:50 +0800] [185690] [INFO] Listening at: http://0.0.0.0:5500 (185690)
+[2025-11-20 11:31:50 +0800] [185690] [INFO] Using worker: sync
+[2025-11-20 11:31:50 +0800] [185693] [INFO] Booting worker with pid: 185693
+[2025-11-20 11:31:50 +0800] [185694] [INFO] Booting worker with pid: 185694
+[2025-11-20 11:31:50 +0800] [185695] [INFO] Booting worker with pid: 185695
+[2025-11-20 11:31:50 +0800] [185700] [INFO] Booting worker with pid: 185700
+2025-11-20 21:13:23,706 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-20 22:39:00,084 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-21 09:17:12,811 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-21 10:07:38,005 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-21 10:18:28,047 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-22 14:23:30,317 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-24 06:27:39,793 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-24 18:58:35,221 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-25 10:14:57,712 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-25 10:26:31,420 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-25 10:27:42,143 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页
+2025-11-25 11:31:08,160 [WARNING] [anonymous] ⚠️ 未登录，拒绝访问首页

@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Erebus Sensitive Word Filter System</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon/favicon.ico">
+
+    <style>
+        :root {
+            --bg-start: #050b20;
+            --bg-end: #151934;
+            --primary-start: #6366f1;
+            --primary-end: #8b5cf6;
+            --muted: #64748b;
+            --border: rgba(15, 23, 42, 0.08);
+            --card-bg: rgba(255, 255, 255, 0.96);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            min-width: 1200px;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            padding: 48px 16px 64px;
+            font-family: "Inter", "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+            background:
+                radial-gradient(circle at 20% 20%, rgba(99, 102, 241, 0.25), transparent 55%),
+                radial-gradient(circle at 80% 0, rgba(14, 165, 233, 0.28), transparent 45%),
+                radial-gradient(circle at 50% 90%, rgba(16, 185, 129, 0.22), transparent 45%),
+                linear-gradient(135deg, var(--bg-start), var(--bg-end));
+            color: #0f172a;
+        }
+
+        h1, h2, h3, h4 {
+            margin: 0;
+            color: #0f172a;
+        }
+
+        p {
+            margin: 0;
+            line-height: 1.6;
+            color: #1f2937;
+        }
+
+        .page {
+            width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .orb {
+            position: absolute;
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            filter: blur(60px);
+            opacity: 0.35;
+            z-index: -1;
+        }
+
+        .orb-one {
+            top: -80px;
+            left: -30px;
+            background: #6366f1;
+        }
+
+        .orb-two {
+            bottom: 6%;
+            right: 0;
+            background: #0ea5e9;
+        }
+
+        .surface {
+            background: var(--card-bg);
+            border-radius: 32px;
+            padding: 40px;
+            box-shadow: 0 30px 80px rgba(15, 23, 42, 0.25);
+            backdrop-filter: blur(18px);
+        }
+
+        header.hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .eyebrow {
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: var(--muted);
+            font-size: 12px;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-top: 8px;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            margin-top: 12px;
+        }
+
+        button {
+            border: none;
+            border-radius: 16px;
+            font-weight: 600;
+            font-size: 15px;
+            cursor: pointer;
+            transition: transform .18s ease, box-shadow .18s ease;
+            padding: 12px 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        button:hover:not(:disabled) {
+            transform: translateY(-1px);
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .primary-btn {
+            color: #fff;
+            background: linear-gradient(135deg, var(--primary-start), var(--primary-end));
+            box-shadow: 0 15px 30px rgba(99, 102, 241, 0.25);
+        }
+
+        .primary-btn:hover:not(:disabled) {
+            box-shadow: 0 20px 36px rgba(99, 102, 241, 0.35);
+        }
+
+        .ghost-btn {
+            background: transparent;
+            color: #0f172a;
+            border: 1px solid var(--border);
+            box-shadow: none;
+        }
+
+        section.card {
+            background: rgba(248, 250, 252, 0.9);
+            border-radius: 24px;
+            padding: 28px 32px;
+            border: 1px solid var(--border);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+        }
+
+        section.card + section.card {
+            margin-top: 28px;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            align-items: flex-start;
+            margin-bottom: 16px;
+        }
+
+        .muted {
+            color: var(--muted);
+        }
+
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 18px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+        }
+
+        .dot {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .dot-danger {
+            background: #ef4444;
+        }
+
+        .dot-warning {
+            background: #f97316;
+        }
+
+        .dot-safe {
+            background: #10b981;
+        }
+
+        .legend-title {
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .legend-desc {
+            font-size: 13px;
+            color: var(--muted);
+        }
+
+        .instruction-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 260px);
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .instruction-grid article {
+            background: #fff;
+            border-radius: 18px;
+            padding: 20px;
+            border: 1px solid rgba(99, 102, 241, 0.12);
+            box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+        }
+
+        .step {
+            font-size: 12px;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+            text-transform: uppercase;
+        }
+
+        .instruction-grid h3 {
+            margin: 10px 0 8px;
+            font-size: 18px;
+        }
+
+        .link-banner {
+            margin-top: 12px;
+            padding: 14px 18px;
+            border-radius: 14px;
+            background: rgba(99, 102, 241, 0.08);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .feishu_link {
+            color: #4c6ef5;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .feishu_link::after {
+            content: "↗";
+            font-size: 14px;
+        }
+
+        .pill {
+            padding: 6px 14px;
+            border-radius: 999px;
+            background: rgba(16, 185, 129, 0.12);
+            color: #047857;
+            font-size: 13px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .file-drop {
+            position: relative;
+            border: 2px dashed rgba(99, 102, 241, 0.3);
+            border-radius: 22px;
+            padding: 24px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            background: #fff;
+            cursor: pointer;
+            transition: border-color .2s ease, transform .2s ease, box-shadow .2s ease;
+            margin-bottom: 18px;
+        }
+
+        .file-drop:hover {
+            border-color: #7c3aed;
+            box-shadow: 0 12px 30px rgba(99, 102, 241, 0.18);
+            transform: translateY(-2px);
+        }
+
+        .file-drop input[type="file"] {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+        .file-name {
+            margin-top: 6px;
+            font-weight: 600;
+            color: #0f172a;
+        }
+        .file-name.empty {
+            color: var(--muted);
+            font-weight: 500;
+        }
+
+        .icon-circle {
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            background: rgba(99, 102, 241, 0.12);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #4c6ef5;
+        }
+
+        .drop-title {
+            font-weight: 600;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 16px;
+            align-items: flex-end;
+            flex-wrap: wrap;
+        }
+
+        .select-group {
+            flex: 1 1 220px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        select {
+            border-radius: 14px;
+            border: 1px solid var(--border);
+            padding: 12px 16px;
+            font-size: 15px;
+            background: #fff;
+            font-family: inherit;
+            transition: border-color .15s;
+        }
+
+        select:focus {
+            outline: 2px solid rgba(99, 102, 241, 0.25);
+        }
+
+        .loader {
+            display: none;
+            margin-top: 18px;
+            padding: 14px 16px;
+            border-radius: 16px;
+            background: rgba(99, 102, 241, 0.08);
+            font-weight: 600;
+            color: #312e81;
+        }
+
+        .loader .spinner {
+            width: 26px;
+            height: 26px;
+            border: 3px solid rgba(99, 102, 241, 0.3);
+            border-top-color: rgba(99, 102, 241, 1);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 12px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .loader .loading-text {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .error {
+            margin-top: 18px;
+            padding: 14px 16px;
+            border-radius: 14px;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            background: rgba(254, 226, 226, 0.8);
+            color: #b91c1c;
+            font-weight: 600;
+        }
+
+        #errorMessage:empty,
+        #debug:empty {
+            display: none;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            background: #fff;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+        }
+
+        #resultTable {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 720px;
+        }
+
+        #resultTable thead th {
+            background: #eef2ff;
+            padding: 16px 18px;
+            font-weight: 600;
+            text-align: left;
+            font-size: 14px;
+            color: #1e1b4b;
+        }
+
+        #resultTable tbody td {
+            padding: 16px 18px;
+            border-top: 1px solid rgba(15, 23, 42, 0.07);
+            vertical-align: top;
+            font-size: 14px;
+            color: #0f172a;
+        }
+
+        #resultTable tbody tr:nth-child(even) {
+            background: #f8fafc;
+        }
+
+        #resultTable tbody tr:hover {
+            background: #eef2ff;
+        }
+
+        .highlight {
+            border-radius: 6px;
+            font-weight: 700;
+            padding: 0 2px;
+            display: inline-block;
+        }
+
+        .highlight[style*="#FF0000"] {
+            color: #b91c1c !important;
+            background: rgba(248, 113, 113, 0.2);
+        }
+
+        .highlight[style*="#00FF00"] {
+            color: #15803d !important;
+            background: rgba(16, 185, 129, 0.2);
+        }
+
+        .highlight[style*="#0000FF"] {
+            color: #1d4ed8 !important;
+            background: rgba(99, 102, 241, 0.16);
+        }
+
+        #debug {
+            margin-top: 16px;
+            padding: 18px;
+            background: #0f172a;
+            color: #d1d5db;
+            border-radius: 20px;
+            font-family: Consolas, "Courier New", monospace;
+            font-size: 13px;
+            white-space: pre-wrap;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .fine-print {
+            margin-top: 12px;
+            font-size: 13px;
+        }
+    </style>
+
+    <script src="/static/js/xlsx.full.min.js"></script>
+    <script src="/static/js/exceljs.min.js"></script>
+</head>
+
+<body>
+<div class="page">
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+    <main class="surface">
+        <header class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">EREBUS · 文本风控</p>
+                <h1>Erebus Sensitive Word Filter System</h1>
+                <p class="subtitle">实时同步飞书多维表规则，帮助你在提交素材前完成自检。</p>
+            </div>
+            <button id="logoutButton" class="ghost-btn" onclick="logout()">退出登录</button>
+        </header>
+
+        <section class="legend">
+            <div class="legend-item">
+                <span class="dot dot-danger"></span>
+                <div>
+                    <p class="legend-title">禁止使用的词</p>
+                    <p class="legend-desc">命中即驳回。</p>
+                </div>
+            </div>
+            <div class="legend-item">
+                <span class="dot dot-warning"></span>
+                <div>
+                    <p class="legend-title">本行业敏感词</p>
+                    <p class="legend-desc">需要使用替代表述。</p>
+                </div>
+            </div>
+            <div class="legend-item">
+                <span class="dot dot-safe"></span>
+                <div>
+                    <p class="legend-title">可用但慎用</p>
+                    <p class="legend-desc">优先选择推荐用语。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card instructions-card">
+            <div class="section-header">
+                <div>
+                    <h2>快速上手</h2>
+                    <p class="muted">上传仅需 3 步，确保素材一次性通过审核。</p>
+                </div>
+            </div>
+            <div class="instruction-grid">
+                <article>
+                    <span class="step">Step 01</span>
+                    <h3>准备 Excel</h3>
+                    <p>仅支持 .xlsx，所有待审文案放在 A 列，第一行可留作标题。</p>
+                </article>
+                <article>
+                    <span class="step">Step 02</span>
+                    <h3>校准权限</h3>
+                    <p>若需调整敏感词，请在飞书多维表中确认自己拥有编辑权限。</p>
+                </article>
+                <article>
+                    <span class="step">Step 03</span>
+                    <h3>留痕导出</h3>
+                    <p>下载带高亮的结果表，方便回传业务方或继续人工审核。</p>
+                </article>
+            </div>
+            <div class="link-banner">
+                <span>需要维护敏感词？</span>
+                <a class="feishu_link"
+                   href="https://xcn523c7s8kf.feishu.cn/base/KQtFbPBcBahDg8sPE2UcX4d4nKe?table=tblwJKXZIZTGmB9C&view=vewrlJY7L0"
+                   target="_blank">打开飞书多维表</a>
+            </div>
+            <p class="muted fine-print">系统暂不涵盖所有场景，人工审核仍然必要。</p>
+        </section>
+
+        <section class="card upload-card">
+            <div class="section-header">
+                <div>
+                    <h2>上传待审内容</h2>
+                    <p class="muted">系统会实时拉取敏感词规则，并在浏览器本地完成比对。</p>
+                </div>
+                <span class="pill">数据仅用于当前会话</span>
+            </div>
+            <label class="file-drop" for="contentFile">
+                <div class="icon-circle">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 3H14L19 8V21H7V3Z"
+                              stroke="#4c6ef5" stroke-width="1.5" stroke-linejoin="round"/>
+                        <path d="M14 3V8H19"
+                              stroke="#4c6ef5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 11V17"
+                              stroke="#4c6ef5" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M9.5 13.5H14.5"
+                              stroke="#4c6ef5" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div>
+                    <p class="drop-title">拖拽或点击上传文件</p>
+                    <p class="muted">单文件 ≤ 20MB · 默认读取 A 列</p>
+                    <p id="fileName" class="file-name empty">未选择文件</p>
+                </div>
+                <input type="file" id="contentFile" accept=".xlsx">
+            </label>
+            <div class="form-row">
+                <div class="select-group">
+                    <label for="matchModeSelect">匹配模式</label>
+                    <select id="matchModeSelect" aria-label="匹配模式">
+                        <option value="word" selected>整词匹配</option>
+                        <option value="char">字符匹配</option>
+                    </select>
+                </div>
+                <button id="auditButton" class="primary-btn" onclick="processFiles()">开始审核</button>
+            </div>
+            <div id="loader" class="loader">
+                <div class="spinner"></div>
+                <div class="loading-text">正在读取文件并比对敏感词...</div>
+            </div>
+            <div id="errorMessage" class="error"></div>
+        </section>
+
+        <section class="card results-card">
+            <div class="section-header">
+                <div>
+                    <h2>扫描结果</h2>
+                    <p class="muted">命中词将被高亮并附带 Excel 行号，方便定位。</p>
+                </div>
+                <button id="downloadButton" class="ghost-btn"
+                        onclick="downloadResults()" style="display: none;">下载结果</button>
+            </div>
+            <div class="table-wrapper">
+                <table id="resultTable" style="display: none;">
+                    <thead>
+                    <tr>
+                        <th>Excel 行号</th>
+                        <th>原始内容</th>
+                        <th>审核后文本</th>
+                    </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="card debug-card">
+            <div class="section-header">
+                <div>
+                    <h2>调试信息</h2>
+                    <p class="muted">匹配模式与错误提示会显示在此，便于排查。</p>
+                </div>
+            </div>
+            <pre id="debug"></pre>
+        </section>
+    </main>
+</div>
+
+<script>
+    let matchMode = "word"; // 默认整词匹配
+
+    const _select = document.getElementById("matchModeSelect");
+    if (_select) {
+        _select.addEventListener("change", e => {
+            matchMode = e.target.value;
+            // 仅更新 debug 区显示当前模式，便于确认；不改变原逻辑
+            document.getElementById("debug").innerText =
+                `当前匹配模式：${matchMode === "word" ? "整词匹配" : "字符匹配"}`;
+        });
+    }
+
+    function normalizeWord(s) {
+        return (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
+    }
+
+    function toARGB(hex) {
+        if (!hex) return 'FF000000';
+        let h = hex.replace('#', '').trim();
+        if (h.length === 3) h = h.split('').map(ch => ch + ch).join('');
+        if (h.length === 6) h = 'FF' + h.toUpperCase();
+        if (h.length === 8) h = h.toUpperCase();
+        return h;
+    }
+
+    function prepareWords(rawWords) {
+        const arr = (rawWords || []).slice();
+        // 根据长度降序，这样长词优先匹配
+        arr.sort((a, b) => (b.word || '').length - (a.word || '').length);
+        return arr.map(item => {
+            const word = item.word || '';
+            const color = item.color || '#e74c3c';
+            const escaped = word
+                .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+                .replace(/\s+/g, '\\s+');
+            return {
+                word,
+                color,
+                escaped,
+                normalized: normalizeWord(word)
+            };
+        });
+    }
+
+    function buildPattern(preparedWords) {
+        if (!preparedWords || !preparedWords.length) return null;
+        const parts = preparedWords.map(w => w.escaped);
+        if (typeof matchMode === 'undefined' || matchMode === 'word') {
+            // 整词边界：前后不是非空白
+            return new RegExp(`(?<!\\S)(?:${parts.join('|')})(?!\\S)`, 'gi');
+        } else {
+            // 字符匹配：直接子串匹配
+            return new RegExp(`(?:${parts.join('|')})`, 'gi');
+        }
+    }
+
+    function escapeHtml(unsafe) {
+        return (unsafe || '')
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+    }
+
+    // 获取敏感词
+    async function fetchSensitiveWords() {
+        try {
+            const resp = await fetch('/api/sensitive', {
+                credentials: 'same-origin',
+                headers: { 'Accept-Encoding': 'gzip, deflate' }
+            });
+            if (!resp.ok) {
+                throw new Error(`HTTP error ${resp.status}: ${await resp.text()}`);
+            }
+            const data = await resp.json();
+            if (!data.sensitive_words || !Array.isArray(data.sensitive_words)) {
+                throw new Error('Invalid response format: sensitive_words missing or not an array');
+            }
+            const prepared = prepareWords(data.sensitive_words);
+            return prepared;
+        } catch (err) {
+            console.error('Fetch sensitive words failed:', err);
+            document.getElementById('errorMessage').textContent = '敏感词加载失败：' + err.message;
+            return [];
+        }
+    }
+
+    // DOM 准备好后，如果没有结果行就隐藏表格
+    document.addEventListener('DOMContentLoaded', () => {
+        const table = document.getElementById('resultTable');
+        if (!table.querySelector('tbody').children.length) {
+            table.style.display = 'none';
+        }
+
+        const fileInput = document.getElementById('contentFile');
+        const fileNameEl = document.getElementById('fileName');
+        if (fileInput && fileNameEl) {
+            const setFileName = () => {
+                const file = fileInput.files && fileInput.files[0];
+                if (file) {
+                    fileNameEl.textContent = `已选择：${file.name}`;
+                    fileNameEl.classList.remove('empty');
+                } else {
+                    fileNameEl.textContent = '未选择文件';
+                    fileNameEl.classList.add('empty');
+                }
+            };
+            setFileName();
+            fileInput.addEventListener('change', setFileName);
+        }
+    });
+
+    async function processFiles() {
+        const contentFile = document.getElementById('contentFile').files[0];
+        const errorMessage = document.getElementById('errorMessage');
+        const debug = document.getElementById('debug');
+        const table = document.getElementById('resultTable');
+        const tbody = table.querySelector('tbody');
+        const auditButton = document.getElementById('auditButton');
+        const loader = document.getElementById('loader');
+        const downloadButton = document.getElementById('downloadButton');
+
+        errorMessage.textContent = '';
+        debug.innerHTML = '';
+        tbody.innerHTML = '';
+        table.style.display = 'none';
+        downloadButton.style.display = 'none';
+
+        if (!contentFile) {
+            errorMessage.textContent = '请上传内容文件。';
+            return;
+        }
+
+        auditButton.disabled = true;
+        auditButton.textContent = '审核中...';
+        loader.style.display = 'block';
+
+        try {
+            const sensitiveWords = await fetchSensitiveWords();
+            window.sensitiveWords = sensitiveWords; // 缓存敏感词供下载使用（预处理后）
+
+            if (!sensitiveWords.length) {
+                errorMessage.textContent = '敏感词为空或加载失败。';
+                return;
+            }
+
+            const contentLines = await readExcelFile(contentFile).then(rows =>
+                rows.map((r, idx) => ({
+                    text: r[0] ? r[0].toString().trim() : '',
+                    rowIndex: idx + 1
+                })).filter(item => item.text)
+            );
+
+            contentLines.forEach(({ text, rowIndex }) => {
+                const auditedText = highlightSensitiveWords(text, sensitiveWords);
+                const row = document.createElement('tr');
+                row.innerHTML =
+                    `<td>${rowIndex}</td><td>${escapeHtml(text)}</td><td>${auditedText}</td>`;
+                tbody.appendChild(row);
+            });
+
+            if (tbody.children.length) {
+                table.style.display = '';
+                downloadButton.style.display = 'inline-block';
+            }
+
+            debug.innerHTML =
+                `<strong>调试信息：</strong>敏感词数量：${sensitiveWords.length}，内容行数：${contentLines.length}`;
+        } catch (err) {
+            errorMessage.textContent = '处理文件出错：' + err.message;
+            console.error(err);
+        } finally {
+            auditButton.disabled = false;
+            auditButton.textContent = '开始审核';
+            loader.style.display = 'none';
+        }
+    }
+
+    function readExcelFile(file) {
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = e => {
+                try {
+                    const data = new Uint8Array(e.target.result);
+                    const workbook = XLSX.read(data, { type: 'array', cellText: true });
+                    const firstSheet = workbook.Sheets[workbook.SheetNames[0]];
+                    resolve(XLSX.utils.sheet_to_json(firstSheet, { header: 1, defval: '' }));
+                } catch (err) {
+                    reject(err);
+                }
+            };
+            reader.onerror = reject;
+            reader.readAsArrayBuffer(file);
+        });
+    }
+
+    // 页面高亮
+    function highlightSensitiveWords(text, preparedWords) {
+        if (!preparedWords || !preparedWords.length) return escapeHtml(text);
+        const pattern = buildPattern(preparedWords);
+        if (!pattern) return escapeHtml(text);
+
+        pattern.lastIndex = 0;
+        let lastIndex = 0;
+        const parts = [];
+        let match;
+
+        while ((match = pattern.exec(text)) !== null) {
+            if (match.index > lastIndex) {
+                parts.push(escapeHtml(text.substring(lastIndex, match.index)));
+            }
+            const matched = match[0];
+            const norm = normalizeWord(matched);
+            let rule = preparedWords.find(w => w.normalized === norm);
+            if (!rule) {
+                rule = preparedWords.find(w => new RegExp(`^${w.escaped}$`, 'i').test(matched));
+            }
+            const color = (rule && rule.color) ? rule.color : '#e74c3c';
+            const style = `color: ${color};${matchMode === 'char' ? 'padding:0;' : ''}`;
+            parts.push(
+                `<span class="highlight" style="${style}">${escapeHtml(matched)}</span>`
+            );
+            lastIndex = match.index + matched.length;
+        }
+
+        if (lastIndex < text.length) {
+            parts.push(escapeHtml(text.substring(lastIndex)));
+        }
+        return parts.join('');
+    }
+
+    // 导出 Excel：在第三列做富文本着色
+    function downloadResults() {
+        const table = document.getElementById('resultTable');
+        const rows = table.querySelectorAll('tbody tr');
+        const preparedWords = window.sensitiveWords || [];
+        const workbook = new ExcelJS.Workbook();
+        const worksheet = workbook.addWorksheet('Audit Results');
+
+        worksheet.addRow(['Excel 行号', '原始文本', '审核后文本']);
+
+        const pattern = buildPattern(preparedWords);
+
+        rows.forEach(row => {
+            const cells = row.querySelectorAll('td');
+            const rowIndex = cells[0].textContent;
+            const original = cells[1].textContent;
+            const auditedText = cells[2].textContent; // 纯文本
+
+            const excelRow = worksheet.addRow([rowIndex, original]);
+
+            if (!pattern) {
+                excelRow.getCell(3).value = auditedText;
+                return;
+            }
+
+            pattern.lastIndex = 0;
+            let lastIndex = 0;
+            const richParts = [];
+            let match;
+
+            while ((match = pattern.exec(auditedText)) !== null) {
+                if (match.index > lastIndex) {
+                    richParts.push({
+                        text: auditedText.substring(lastIndex, match.index)
+                    });
+                }
+                const matched = match[0];
+                const norm = normalizeWord(matched);
+                let rule = preparedWords.find(w => w.normalized === norm);
+                if (!rule) {
+                    rule = preparedWords.find(w => new RegExp(`^${w.escaped}$`, 'i').test(matched));
+                }
+                const argb = toARGB(rule && rule.color ? rule.color : '#e74c3c');
+                richParts.push({
+                    text: matched,
+                    font: { color: { argb }, bold: true }
+                });
+                lastIndex = match.index + matched.length;
+            }
+
+            if (lastIndex < auditedText.length) {
+                richParts.push({ text: auditedText.substring(lastIndex) });
+            }
+
+            excelRow.getCell(3).value = { richText: richParts };
+        });
+
+        const now = new Date();
+        const timestamp =
+            now.getFullYear().toString() +
+            (now.getMonth() + 1).toString().padStart(2, '0') +
+            now.getDate().toString().padStart(2, '0') + '_' +
+            now.getHours().toString().padStart(2, '0') +
+            now.getMinutes().toString().padStart(2, '0') +
+            now.getSeconds().toString().padStart(2, '0');
+
+        workbook.xlsx.writeBuffer().then(buf => {
+            const blob = new Blob(
+                [buf],
+                { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' }
+            );
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = `审核结果_${timestamp}.xlsx`;
+            link.click();
+        }).catch(err => {
+            console.error('导出失败:', err);
+            document.getElementById('errorMessage').textContent =
+                '导出失败：' + err.message;
+        });
+    }
+
+    function logout() {
+        fetch('/logout', { method: 'GET' })
+            .then(() => window.location.href = '/login')
+            .catch(err => {
+                console.error('Logout failed:', err);
+                document.getElementById('errorMessage').textContent =
+                    '注销失败：' + err.message;
+            });
+    }
+</script>
+</body>
+</html>
