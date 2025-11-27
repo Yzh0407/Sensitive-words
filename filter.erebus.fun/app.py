@@ -23,10 +23,9 @@ app.secret_key = '8f2d9a1c5b3e4f7a9d2c6b1e3f4a7c8d'
 app.permanent_session_lifetime = timedelta(days=7)
 
 # 配置区
-APP_ID = "cli_a8496e3b08ab900d"  
-APP_SECRET = "kMkJpJx0BG1LrQSvOjGpueUG1O84gnRZ"  
-BASE_TOKEN = "KQtFbPBcBahDg8sPE2UcX4d4nKe"
-TABLE_ID = "tblwJKXZIZTGmB9C"
+APP_ID = "cli_a8496e3b08ab900d"
+APP_SECRET = "kMkJpJx0BG1LrQSvOjGpueUG1O84gnRZ"
+BASE_TOKEN = "NN9Ub6KGDaKpOSsjq9KcGZNJnNc"
 MYSQL_HOST = '43.153.149.113'
 MYSQL_USER = 'appuser'
 MYSQL_PASSWORD = 'appuser@123456'
@@ -96,10 +95,32 @@ def get_tenant_access_token():
 
 
 
-def get_sensitive_words():
+def validate_table_id_access(table_id: str):
+    if not table_id:
+        raise ValueError("Table ID 不能为空，请检查。")
+
     token = get_tenant_access_token()
     headers = {"Authorization": f"Bearer {token}"}
-    url = f"https://open.feishu.cn/open-apis/bitable/v1/apps/{BASE_TOKEN}/tables/{TABLE_ID}/records"
+    url = f"https://open.feishu.cn/open-apis/bitable/v1/apps/{BASE_TOKEN}/tables/{table_id}/records"
+
+    try:
+        resp = requests.get(url, headers=headers, params={"page_size": 1})
+        resp.raise_for_status()
+        data = resp.json()
+        if data.get("code", -1) != 0:
+            app.logger.error(f"❌ Table ID 校验失败: {data}")
+            raise ValueError("Table ID 错误或不存在，请检查。")
+    except requests.RequestException as e:
+        app.logger.error(f"❌ Table ID 校验异常: {e}")
+        raise ValueError("Table ID 错误或不存在，请检查。")
+
+    return token
+
+
+def get_sensitive_words(table_id: str):
+    token = validate_table_id_access(table_id)
+    headers = {"Authorization": f"Bearer {token}"}
+    url = f"https://open.feishu.cn/open-apis/bitable/v1/apps/{BASE_TOKEN}/tables/{table_id}/records"
     sensitive_words = []
     colors = ["#FF0000", "#00FF00", "#0000FF"]
     field_names = ["禁止使用的词", "本行业容易引起审核的词", "可以用尽量少用"]
@@ -145,11 +166,11 @@ def get_sensitive_words():
             app.logger.error(f"Response: {resp.text if 'resp' in locals() else '无响应'}")
             return sensitive_words
 
-    app.logger.info(f"✅ 共加载敏感词 {len(sensitive_words)} 条")
+    app.logger.info(f"✅ 共加载敏感词 {len(sensitive_words)} 条 (Table ID: {table_id})")
     return sensitive_words
 
 
-def check_user(username, password):
+def get_user_record(username):
     try:
         conn = pymysql.connect(
             host=MYSQL_HOST, user=MYSQL_USER, password=MYSQL_PASSWORD,
@@ -160,14 +181,45 @@ def check_user(username, password):
         user = cursor.fetchone()
         cursor.close()
         conn.close()
-
-        if user:
-            hashed_input = hashlib.sha256(password.encode('utf-8')).hexdigest()
-            return hashed_input == user['PassWord']
-        return False
+        return user
     except Exception as e:
         app.logger.error(f"数据库连接或查询失败: {e}")
+        return None
+
+
+def authenticate_user(username, password):
+    user = get_user_record(username)
+    if not user:
+        return None
+
+    hashed_input = hashlib.sha256(password.encode('utf-8')).hexdigest()
+    if hashed_input == user.get('PassWord'):
+        return user
+    return None
+
+
+def update_user_table_id(username: str, table_id: str):
+    try:
+        conn = pymysql.connect(
+            host=MYSQL_HOST, user=MYSQL_USER, password=MYSQL_PASSWORD,
+            db=MYSQL_DB, charset='utf8mb4'
+        )
+        cursor = conn.cursor()
+        cursor.execute("UPDATE Login SET TableID=%s WHERE UserName=%s", (table_id, username))
+        conn.commit()
+        cursor.close()
+        conn.close()
+        return True
+    except Exception as e:
+        app.logger.error(f"更新 Table ID 失败: {e}")
         return False
+
+
+def get_active_table_id():
+    table_id = session.get('table_id')
+    if not table_id:
+        raise ValueError("Table ID 不能为空，请检查。")
+    return table_id
 
 
 
@@ -177,9 +229,11 @@ def login():
         username = request.form.get('username')
         password = request.form.get('password')
         remember_me = request.form.get('remember_me') == 'on'
-        if check_user(username, password):
+        user = authenticate_user(username, password)
+        if user:
             session['logged_in'] = True
             session['username'] = username   # ✅ 把用户名写进 session
+            session['table_id'] = user.get('TableID')
             session.permanent = remember_me
             app.logger.info(f"✅ 用户 {username} 登录成功，Session: {session}")
             return redirect(url_for('index'))
@@ -194,13 +248,17 @@ def index():
     if not session.get('logged_in'):
         app.logger.warning("⚠️ 未登录，拒绝访问首页")
         return redirect(url_for('login'))
-    return render_template('index.html')
+    return render_template('index.html', table_id=session.get('table_id', ''))
 
 
 def index_post():
     if not session.get('logged_in'):
         app.logger.warning("⚠️ 未登录，拒绝访问 / POST")
         return jsonify({"error": "未登录"}), 401
+    try:
+        table_id = get_active_table_id()
+    except ValueError as ve:
+        return jsonify({"error": str(ve)}), 400
     content_file = request.files.get('contentFile')
     if not content_file:
         app.logger.warning("⚠️ 未上传内容文件")
@@ -210,7 +268,10 @@ def index_post():
     ws = wb.active
     content_lines = [cell.value for cell in ws['A'][1:] if cell.value]
 
-    sensitive_words = get_sensitive_words()
+    try:
+        sensitive_words = get_sensitive_words(table_id)
+    except ValueError as ve:
+        return jsonify({"error": str(ve)}), 400
     results = []
     for idx, line in enumerate(content_lines, start=2):
         audited_text = line
@@ -227,7 +288,8 @@ def get_sensitive():
         app.logger.warning(f"⚠️ 未登录，拒绝访问 /api/sensitive, Session: {session}")
         return jsonify({"error": "未登录"}), 401
     try:
-        sensitive_words = get_sensitive_words()
+        table_id = get_active_table_id()
+        sensitive_words = get_sensitive_words(table_id)
         response_data = jsonify({"sensitive_words": sensitive_words}).get_data()
         if request.headers.get('Accept-Encoding', '').find('gzip') >= 0:
             out = BytesIO()
@@ -242,9 +304,36 @@ def get_sensitive():
             })
         app.logger.info(f"✅ 返回敏感词 {len(sensitive_words)} 条")
         return jsonify({"sensitive_words": sensitive_words})
+    except ValueError as ve:
+        return jsonify({"error": str(ve)}), 400
     except Exception as e:
         app.logger.error(f"❌ 处理 /api/sensitive 失败: {e}")
         return jsonify({"error": str(e)}), 500
+
+
+@app.route('/api/table-id', methods=['POST'])
+def set_table_id():
+    if not session.get('logged_in'):
+        return jsonify({"error": "未登录"}), 401
+
+    payload = request.get_json(silent=True) or {}
+    table_id = (payload.get('table_id') or '').strip()
+
+    try:
+        validate_table_id_access(table_id)
+    except ValueError as ve:
+        return jsonify({"error": str(ve)}), 400
+
+    username = session.get('username')
+    if not username:
+        return jsonify({"error": "用户信息缺失"}), 400
+
+    if not update_user_table_id(username, table_id):
+        return jsonify({"error": "Table ID 保存失败，请稍后重试。"}), 500
+
+    session['table_id'] = table_id
+    app.logger.info(f"✅ 用户 {username} 更新 Table ID 为 {table_id}")
+    return jsonify({"message": "Table ID 更新成功", "table_id": table_id})
 
 
 
